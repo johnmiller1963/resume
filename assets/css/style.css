@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Niramit:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700&display=swap');
 
 .topmenu {
-    padding 0;
+
+}
+
+.navbar-nav {
+    padding: 5px;
     font-family: niramit, sans-serif;
     font-size: 18px;
+    color:blue;
 }
 
 p {
     margin:25px;
+}
+
+.navbar-custom {
+    color: blue;
+    background-color: #CC3333;
 }
