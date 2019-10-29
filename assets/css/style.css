@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Niramit:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700&display=swap');
 
-.topmenu {
-
-}
 
 .navbar-nav {
     padding: 5px;
@@ -19,11 +16,6 @@ h2{
 p {
     margin:25px;
     text-align: center;
-}
-
-.text-centre{
-    position: centre;
-    border:#CC3333
 }
 
 .navbar-custom {
