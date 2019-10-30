@@ -44,7 +44,7 @@ p {
 
 .main-container  .img-locked {
     display: block;
-    min-width: 200px;
+    min-width: 175px;
     max-height: 100%;
 }
 
