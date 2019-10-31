@@ -58,6 +58,11 @@ p {
     color: #333;
 }
 
+.image-radius{
+    border:white;
+    border-radius: 10px;
+}
+
 .navbar-nav {
     padding: 5px;
     font-family: Niramit, sans-serif;
@@ -95,4 +100,34 @@ footer {
  position: absolute;
  bottom: 0;
  width: 100%;
+}
+
+.button-modal-cancel {
+    color:#27509b;
+    box-shadow: 3;
+    font-size: 1.1rem;
+    background-color: white;
+    box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
+    border: 1px solid #fc9700;
+}
+
+.button-modal-cancel:hover {
+    background-color: #fc9700;
+    color: white;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button-modal-send {
+    color:#27509b;
+    box-shadow: 3;
+    font-size: 1.1rem;
+    background-color: white;
+    box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
+    border: 1px solid #fc9700;
+}
+
+.button-modal-send:hover {
+    background-color: #fc9700;
+    color: white;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }

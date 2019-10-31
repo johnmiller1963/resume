@@ -41,12 +41,47 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="#modalcontactme" data-toggle = "modal" data-target= "#modalcontactme" class="nav-link">
+                                Contact
+                            </a>
                         </li>
                     </ul>
                 </div>
             </nav>
-        </container>
+        </container> <!-- End of Top Menu -->
+
+        <div class="modal fade" id="modalcontactme" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title">Send me a message!</h2>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="sender-name" class="col-form-label">Your name:</label>
+                                <input type="text" class="form-control" id="sender-name">
+                            </div>
+                            <div class="form-group">
+                                <label for="sender-email" class="col-form-label">Your email:</label>
+                                <input type="email" class="form-control" id="sender-email" placeholder="name@domain.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text" class="col-form-label">Message:</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary button-modal-cancel" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary button-modal-send">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- End of Modal Contact me form -->
 
         <div class="main-container">
             <div class="row">
@@ -58,12 +93,12 @@
                         <p>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, est. Iste soluta dicta assumenda esse, earum accusantium modi eos harum.
                         </p>
-                        <button class="btn button-custom">Contact me</button>
+                        <button class="btn button-custom" href="#modalcontactme" data-toggle = "modal" data-target= "#modalcontactme">Contact me</button>
                 </div>
             </div>
             <div class="row">
                 <div class="col p-5 m-4 d-none d-md-block d-xl-block">
-                        <img src="assets/images/agreement.jpg" class="img-fluid" alt="">
+                        <img src="assets/images/agreement-light.png" class="img-fluid image-radius" alt="">
                 </div>
                 <div class="col pt-4 text-centre">
                     <h2>Why me?</h2>
