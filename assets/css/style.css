@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Niramit:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700&display=swap');
 
+/*
+Yellow #fce500
+Grey #333
+Blue #27509b
+orange #fc9700
+*/
+
 * {
  box-sizing: border-box;
 }
@@ -24,21 +31,40 @@ body {
     padding: 5px;
     font-family: niramit, sans-serif;
     font-size: 18px;
-    color:blue;
+    color: #0B02DF;
+}
+
+.button-custom {
+    color:#27509b;
+    box-shadow: 3;
+    font-size: 1.1rem;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 120px;
+    border: 1px solid #fc9700;
+}
+
+.button-custom:hover {
+  background-color: #fc9700;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 h2{
     margin: 25px;
     text-align: center;
+    color: #27509b;
 }
 
 p {
+    padding: 3.5rem;
     margin:25px;
     text-align: center;
+    color: #333;
 }
 
 .navbar-custom {
-    color: blue;
+    color: #0B02DF;
     background-color: #CC3333;
 }
 
