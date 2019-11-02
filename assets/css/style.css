@@ -171,7 +171,6 @@ footer {
 .accordion {
   background-color: white;
   color: #444;
-  cursor: pointer;
   padding: 5%;
   width: 100%;
   text-align: center;
@@ -179,18 +178,22 @@ footer {
   transition: 0.4s;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-/*.active, .accordion:hover {
-  background-color: #fc9700;
+.card-header {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    padding-bottom: 28px;
+    padding-top: 0;
 }
-*/
+
 .link-visit-employer{
     color:#27509b;
-    padding-bottom: 25px;
-    margin: 40px;
+    padding-bottom: 50px;
+    margin: 0px;
 }
 
  .btn-link {
+    align-self: auto;
     box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
     border: 1px solid #fc9700;
     color:#27509b
@@ -203,8 +206,8 @@ footer {
 }
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
+    padding: 0 0;
+    background-color: white;
+    display: none;
+    overflow: hidden;
 }
