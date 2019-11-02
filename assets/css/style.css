@@ -174,7 +174,7 @@ footer {
   cursor: pointer;
   padding: 5%;
   width: 100%;
-  text-align: left;
+  text-align: center;
   outline: none;
   transition: 0.4s;
 }
@@ -184,8 +184,13 @@ footer {
   background-color: #fc9700;
 }
 */
+.link-visit-employer{
+    color:#27509b;
+    padding-bottom: 25px;
+    margin: 40px;
+}
 
-.btn-link {
+ .btn-link {
     box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
     border: 1px solid #fc9700;
     color:#27509b
