@@ -10,4 +10,4 @@ Things that don't work, but need to move on for now ;-)
 2) On index.html, modify column position when xs or sm so that the profile picture moves from column 2 to col 1
 3) #Done - Current topmenu item should be highlighted by some means, eg bold?
 4) History page, Orange Our IT & Bridgewater logos looks rubbish with the orange background on hover
-5)
+5) I think landing page (home) might look better with a background image?
