@@ -2,6 +2,7 @@
 Code Institute MS1
 
 Ref for transparent pngs used https://onlinepngtools.com/create-transparent-png
+Ref for text carousel used in projects https://codepen.io/cassidoo/pen/MyaWzp
 
 Things that don't work, but need to move on for now ;-)
 
