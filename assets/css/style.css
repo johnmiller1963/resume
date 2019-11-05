@@ -10,25 +10,25 @@ orange #fc9700
 
 
 * {
- box-sizing: border-box;
-}
-*:before,
-*:after {
- box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-html,
-body {
- height: 100%;
- position: relative;
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    position: relative;
 }
 
 .main-container {
- min-height: 100vh; /* will cover the 100% of viewport */
- overflow: hidden;
- display: block;
- position: relative;
- padding-bottom: 100px; /* height of your footer */
+    min-height: 100vh; /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px; /* height of your footer */
 }
 
 .button-custom {
@@ -39,6 +39,10 @@ body {
     box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
     width: 145px;
     border: 1px solid #fc9700;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .button-custom:hover {
@@ -81,13 +85,21 @@ p {
 
 .nav-link {
     color:#020247!important;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
-.dropdown-item{
+.dropdown-item {
     padding-left: 8px;
     font-family: Niramit, sans-serif;
     font-size: 16px;
     color:#020247;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 #active {
@@ -98,6 +110,14 @@ p {
 #active-projects {
     font-weight: 600!important;
     /* color:#fc9700!important; */
+}
+
+.nav-link:hover {
+    color:#fc9700!important;
+}
+
+.dropdown-item:hover {
+    color:#fc9700;
 }
 
 .main-container  .img-locked {
@@ -112,13 +132,46 @@ footer {
     width: 100%;
 }
 
+
+.cv-pdf {
+    font-size: 16px;
+    font-family: niramit, sans-serif;
+    color: white;
+    text-align: left;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf:hover {
+    text-decoration: none;
+    color: #fc9700;
+}
+
+.col .icon {
+    text-decoration: none;
+    display: inline;
+    padding: 3px;
+    text-align: center;
+}
+
+.icon:hover {
+    padding: 6px;
+}
+
 .button-modal-cancel {
     color:#27509b;
     box-shadow: 3;
     font-size: 1.1rem;
     background-color: white;
-    box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
+    box-shadow: 11px 15px 26px -7px rgba(134, 108, 108, 0.66);
     border: 1px solid #fc9700;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .button-modal-cancel:hover {
@@ -134,6 +187,10 @@ footer {
     background-color: white;
     box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
     border: 1px solid #fc9700;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .button-modal-send:hover {
@@ -176,13 +233,13 @@ footer {
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-  background-color: white;
-  color: #444;
-  padding: 5%;
-  width: 100%;
-  text-align: center;
-  outline: none;
-  transition: 0.4s;
+    background-color: white;
+    color: #444;
+    padding: 5%;
+    width: 100%;
+    text-align: center;
+    outline: none;
+    transition: 0.4s;
 }
 
 .card-header {
@@ -204,6 +261,10 @@ footer {
     box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
     border: 1px solid #fc9700;
     color:#27509b
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .btn-link:hover {

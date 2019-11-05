@@ -10,7 +10,7 @@
     <title>Resume - John Miller</title>
 </head>
     <body>
-        <container class="topmenu">
+         <container class="topmenu">
             <nav class="navbar navbar-light navbar-expand-sm bg-white navbar-default">
                 <a class="navbar-brand" href="https://codeinstitute.net" target="_blank">
                     <img src="assets/images/logo.png" width="60" height="33" alt="">
@@ -21,10 +21,10 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Hello!<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" id="active" href="index.html">Hello!<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="active" href="history.html">History</a>
+                            <a class="nav-link" href="history.html">History</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="skills.html">Skills</a>
@@ -34,9 +34,9 @@
                                 Projects
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">SLA tracking</a>
-                                <a class="dropdown-item" href="#">Job tracking</a>
-                                <a class="dropdown-item" href="#">ERP & WIP</a>
+                                <a class="dropdown-item" href="projects.html">SLA tracking</a>
+                                <a class="dropdown-item" href="projects.html">Job tracking</a>
+                                <a class="dropdown-item" href="projects.html">ERP & WIP</a>
                                 <a class="dropdown-item" href="#">Oh! This one</a>
                             </div>
                         </li>
@@ -198,31 +198,34 @@
                     </div>
                 </div> <!-- End of accordian -->
             </div> <!-- End of container used to make footer work -->
-            <footer class="bg-dark text-white mt-8 centre">
+           <footer class="bg-dark text-white mt-8 centre">
                 <div class="container-fluid my-4">
                     <div class="row">
                         <div class="col py-3">
-                                <!-- Social icons -->
-                                <div class="col small">©John Miller 2019
-                                    <a class="pl-5 col-4-sm facebook-icon" href="https://www.facebook.com" target="_blank">
+                            <div class="col small cv-pdf">
+                                    <a href="assets/cv/sample-cv.pdf" target="_blank" class="cv-pdf">Download CV
+                                        <i class="fa fa-download" aria-hidden="true"></i>
+                                        <span class="sr-only">Download CV link.</span>
+                                    </a>
+                                    <a class="pl-3 col-4-sm facebook-icon icon" href="https://www.facebook.com" target="_blank">
                                         <img src="assets/images/social/iconfinder_Facebook-01_762315.png" width="30" height="30" alt="">
                                     </a>
-                                    <a class="col git-icon" href="https://www.github.com" target="_blank">
+                                    <a class="col git-icon icon" href="https://www.github.com" target="_blank">
                                         <img src="assets/images/social/iconfinder_Github-01_762309.png" width="30" height="30" alt="">
                                     </a>
-                                    <a class="col-4-sm skype-icon" href="https://www.skype.com" target="_blank">
+                                    <a class="col-4-sm skype-icon icon" href="https://www.skype.com" target="_blank">
                                         <img src="assets/images/social/iconfinder_Skype-01_762293.png" width="30" height="30" alt="">
                                     </a>
-                                    <a class="col youtube-icon" href="https://www.youtube.com" target="_blank">
+                                    <a class="col youtube-icon icon" href="https://www.youtube.com" target="_blank">
                                         <img src="assets/images/social/iconfinder_Youtube-01_762275.png" width="30" height="30" alt="">
                                     </a>
-                                    <a class="col-4-sm email-icon" href="mailto:john@ritmanager.co.uk" target="_blank">
+                                    <a class="col-4-sm email-icon icon" href="mailto:john@ritmanager.co.uk" target="_blank">
                                         <img src="assets/images/social/iconfinder_mail_2141632.png" width="30" height="30" alt="">
                                     </a>
-                                    <a class="col linkedin-icon" href="https://www.linkedin.com" target="_blank">
+                                    <a class="col linkedin-icon icon" href="https://www.linkedin.com" target="_blank">
                                         <img src="assets/images/social/iconfinder_linkedin_2141633.png" width="30" height="30" alt="">
                                     </a>
-                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
