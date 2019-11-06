@@ -21,6 +21,11 @@ orange #fc9700
 html, body {
     height: 100%;
     position: relative;
+     background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+     background-size: cover;
+    -o-background-size: cover;
 }
 
 .main-container {
@@ -388,10 +393,17 @@ footer {
 }
 
 /* Six columns side by side */
-.column {
+.project1 {
     padding:1px;
     float: left;
     width: 16.66%;
+}
+
+/* Four columns side by side */
+.project2 {
+    padding:1px;
+    float: left;
+    width: 25%;
 }
 
 /* Add a transparency effect for thumnbail images */
