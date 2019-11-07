@@ -344,7 +344,7 @@ footer {
     margin-left: 5px;
     margin-right:5px;
     margin-top:50px;
-
+border: solid #fc9700 5px;
     position: relative;
 }
 
@@ -441,7 +441,6 @@ footer {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-
 .prevp3,
 .nextp3 {
   cursor: pointer;
@@ -516,7 +515,7 @@ footer {
     width:100%;
 }
 
-.thumbnailsp2 {
+.thumbnailsp3 {
     border: solid #fc9700 1px;
     border-top:white;
     width:100%;
