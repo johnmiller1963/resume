@@ -21,11 +21,11 @@ orange #fc9700
 html, body {
     height: 100%;
     position: relative;
-     background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
+    /* background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
      background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; */
 }
 
 .main-container {
@@ -58,6 +58,13 @@ html, body {
 
 h2{
     margin: 25px;
+    text-align: center;
+    color: #27509b;
+    text-shadow: 4px 7px 10px rgba(51,51,51,0.66);
+}
+
+h3{
+    margin: 22px;
     text-align: center;
     color: #27509b;
     text-shadow: 4px 7px 10px rgba(51,51,51,0.66);
@@ -314,7 +321,7 @@ footer {
 /* Slideshow styling */
 
 /* Position the image container (needed to position the left and right arrows) */
-.container-images {
+.container-imagesp1 {
     border-top-left-radius: 25px;
     margin-left: 15px;
     margin-right:10px;
@@ -323,24 +330,63 @@ footer {
     position: relative;
 }
 
+.container-imagesp2 {
+    border-top-left-radius: 25px;
+    margin-left: 5px;
+    margin-right:5px;
+    margin-top:50px;
+
+    position: relative;
+}
+
+.container-imagesp3 {
+    border-top-left-radius: 25px;
+    margin-left: 5px;
+    margin-right:5px;
+    margin-top:50px;
+
+    position: relative;
+}
+
 /* Hide the images by default */
-.mySlides {
+.mySlidesp1 {
     display: none;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
-.project-main-image {
+.mySlidesp2 {
+    display: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.mySlidesp3 {
+    display: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.project-main-imagep1 {
     border: solid #fc9700 1px;
 }
+
+.project-main-imagep2 {
+    border: solid #fc9700 1px;
+}
+
+.project-main-imagep3 {
+    border: solid #fc9700 1px;
+}
+
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 /* Next & previous buttons */
-.prev,
-.next {
+.prevp1,
+.nextp1 {
   cursor: pointer;
     position: absolute;
   top: 40%;
@@ -356,20 +402,76 @@ footer {
 }
 
 /* Position the "next button" to the right */
-.next {
+.nextp1 {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
+/* On hover, add a black background color with a little bit see-through */
+.prevp1:hover,
+.nextp1:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.prevp2,
+.nextp2 {
+  cursor: pointer;
+    position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.nextp2 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
+.prevp2:hover,
+.nextp2:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.prevp3,
+.nextp3 {
+  cursor: pointer;
+    position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.nextp3 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prevp3:hover,
+.nextp3:hover {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
 /* Container for image text */
-.caption-container {
+.caption-containerp1 {
     font-size: 16px;
     padding-right: 20px;
     border-top-left-radius: 5px;
@@ -380,7 +482,41 @@ footer {
     color: white;
 }
 
-.thumbnails {
+.caption-containerp2 {
+    font-size: 16px;
+    padding-right: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 24px;
+    height:66px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+.caption-containerp3 {
+    font-size: 16px;
+    padding-right: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 24px;
+    height:66px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+.thumbnailsp1 {
+    border: solid #fc9700 1px;
+    border-top:white;
+    width:100%;
+}
+
+.thumbnailsp2 {
+    border: solid #fc9700 1px;
+    border-top:white;
+    width:100%;
+}
+
+.thumbnailsp2 {
     border: solid #fc9700 1px;
     border-top:white;
     width:100%;
@@ -393,29 +529,52 @@ footer {
 }
 
 /* Six columns side by side */
-.project1 {
+.projectp1 {
     padding:1px;
     float: left;
     width: 16.66%;
 }
 
 /* Four columns side by side */
-.project2 {
+.projectp2 {
+    padding:1px;
+    float: left;
+    width: 25%;
+}
+
+.projectp3 {
     padding:1px;
     float: left;
     width: 25%;
 }
 
 /* Add a transparency effect for thumnbail images */
-.demo {
+.demop1 {
   opacity: 0.6;
 }
 
 .active,
-.demo:hover {
+.demop1:hover {
   opacity: 1;
 }
 
+.demop2 {
+  opacity: 0.6;
+}
+
+.active,
+.demop2:hover {
+  opacity: 1;
+}
+
+.demop3 {
+  opacity: 0.6;
+}
+
+.active,
+.demop3:hover {
+  opacity: 1;
+}
 /*
 @media (min-width: 768px)
 .pl-md-3, .px-md-3 {
