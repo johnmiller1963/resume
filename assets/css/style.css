@@ -41,6 +41,11 @@ html, body {
     padding-bottom: 100px; /* height of your footer */
 }
 
+.container-history {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .button-custom {
     color:#27509b;
     box-shadow: 3;
@@ -148,7 +153,6 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
 
 .cv-pdf {
     font-size: 16px;
