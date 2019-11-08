@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Niramit:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700&display=swap');
 
-/*
+/* Keep some handy colours
 Yellow #fce500
 Grey #333
 Blue #27509b
 orange #fc9700
 */
-
-
 
 * {
     box-sizing: border-box;
@@ -48,11 +46,11 @@ html, body {
 
 .button-custom {
     color:#27509b;
-    box-shadow: 3;
     font-size: 1.3rem;
     background-color: white;
     box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
-    width: 145px;
+    width: 165px;
+    border-radius: 5px 20px 5px 5px;
     border: 1px solid #fc9700;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -61,9 +59,9 @@ html, body {
 }
 
 .button-custom:hover {
-  background-color: #fc9700;
-  color: white;
-  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #fc9700;
+    color: white;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 h2{
@@ -148,6 +146,7 @@ p {
     max-height: 100%;
 }
 
+/* Footer section */
 footer {
     position: absolute;
     bottom: 0;
@@ -182,11 +181,13 @@ footer {
     padding: 6px;
 }
 
+/* Components used in the modal contact form */
 .button-modal-cancel {
     color:#27509b;
-    box-shadow: 3;
     font-size: 1.1rem;
     background-color: white;
+    width: 115px;
+    border-radius: 5px 20px 5px 5px;
     box-shadow: 11px 15px 26px -7px rgba(134, 108, 108, 0.66);
     border: 1px solid #fc9700;
     transition: all 0.35s ease-in-out;
@@ -203,9 +204,10 @@ footer {
 
 .button-modal-send {
     color:#27509b;
-    box-shadow: 3;
     font-size: 1.1rem;
     background-color: white;
+    width: 115px;
+    border-radius: 5px 20px 5px 5px;
     box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
     border: 1px solid #fc9700;
     transition: all 0.35s ease-in-out;
@@ -220,7 +222,9 @@ footer {
     box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+/* Skills section */
 .wrapper {
+    padding-top: 10px;
     margin-bottom: 10px;
     padding-left: 10%;
     width: 90%;
@@ -280,6 +284,8 @@ footer {
  .btn-link {
     align-self: auto;
     box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
+    width: 310px;
+    border-radius: 5px 20px 5px 5px;
     border: 1px solid #fc9700;
     color:#27509b
     transition: all 0.35s ease-in-out;
@@ -295,14 +301,12 @@ footer {
 }
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-    padding: 0 0;
     background-color: white;
     display: none;
     overflow: hidden;
 }
 
 /* Carousel slider in Projects */
-
 .carousel-container {
     margin:0%;
     padding-right: 40px;
@@ -395,91 +399,92 @@ footer {
 /* Next & previous buttons */
 .prevp1,
 .nextp1 {
-  cursor: pointer;
+    cursor: pointer;
     position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: black;
-  font-weight: bold;
-  font-size: 22px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 /* Position the "next button" to the right */
 .nextp1 {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* On hover, add a black background color with see-through */
 .prevp1:hover,
 .nextp1:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .prevp2,
 .nextp2 {
-  cursor: pointer;
+    cursor: pointer;
     position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: black;
-  font-weight: bold;
-  font-size: 22px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 /* Position the "next button" to the right */
 .nextp2 {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prevp2:hover,
 .nextp2:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .prevp3,
 .nextp3 {
-  cursor: pointer;
+    cursor: pointer;
     position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: black;
-  font-weight: bold;
-  font-size: 22px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 /* Position the "next button" to the right */
 .nextp3 {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prevp3:hover,
 .nextp3:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 /* Container for image text */
 .caption-containerp1 {
     font-size: 16px;
+    padding-left: 5px;
     padding-right: 20px;
     border-top-left-radius: 5px;
     border-top-right-radius: 24px;
@@ -491,6 +496,7 @@ footer {
 
 .caption-containerp2 {
     font-size: 16px;
+    padding-left: 5px;
     padding-right: 20px;
     border-top-left-radius: 5px;
     border-top-right-radius: 24px;
@@ -502,6 +508,7 @@ footer {
 
 .caption-containerp3 {
     font-size: 16px;
+    padding-left: 5px;
     padding-right: 20px;
     border-top-left-radius: 5px;
     border-top-right-radius: 24px;
@@ -530,19 +537,19 @@ footer {
 }
 
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
-/* Six columns side by side */
+/* Six columns side by side for Project 1 (full width) */
 .projectp1 {
     padding:1px;
     float: left;
     width: 16.66%;
 }
 
-/* Four columns side by side */
+/* Four columns side by side, secondary projects, in med view will be full width*/
 .projectp2 {
     padding:1px;
     float: left;
@@ -557,49 +564,28 @@ footer {
 
 /* Add a transparency effect for thumnbail images */
 .demop1 {
-  opacity: 0.6;
+    opacity: 0.6;
 }
 
 .active,
 .demop1:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 .demop2 {
-  opacity: 0.6;
+    opacity: 0.6;
 }
 
 .active,
 .demop2:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 .demop3 {
-  opacity: 0.6;
+    opacity: 0.6;
 }
 
 .active,
 .demop3:hover {
-  opacity: 1;
-}
-/*
-@media (min-width: 768px)
-.pl-md-3, .px-md-3 {
-    padding-left: 1rem!important;
-}
-
-@media (min-width: 768px)
-.mb-md-3, .my-md-3 {
-    margin-bottom: 1rem!important;
-}
-
-@media (min-width: 768px)
-.mt-md-3, .my-md-3 {
-    margin-top: 1rem!important;
-}
-
-@media (min-width: 768px)
-.d-md-flex {
-    display: -ms-flexbox!important;
-    display: flex!important;
+    opacity: 1;
 }
