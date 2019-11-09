@@ -8,14 +8,12 @@ orange #fc9700
 */
 
 * {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *:before,
 *:after {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html, body {
@@ -50,8 +48,7 @@ html, body {
     color:#27509b;
     font-size: 1.3rem;
     background-color: white;
-    -webkit-box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
-            box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
+    box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
     width: 165px;
     border-radius: 5px 20px 5px 5px;
     border: 1px solid #fc9700;
@@ -64,8 +61,7 @@ html, body {
 .button-custom:hover {
     background-color: #fc9700;
     color: white;
-    -webkit-box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-            box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 h2{
@@ -192,8 +188,7 @@ footer {
     background-color: white;
     width: 115px;
     border-radius: 5px 20px 5px 5px;
-    -webkit-box-shadow: 11px 15px 26px -7px rgba(134, 108, 108, 0.66);
-            box-shadow: 11px 15px 26px -7px rgba(134, 108, 108, 0.66);
+    box-shadow: 11px 15px 26px -7px rgba(134, 108, 108, 0.66);
     border: 1px solid #fc9700;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -204,8 +199,7 @@ footer {
 .button-modal-cancel:hover {
     background-color: #fc9700;
     color: white;
-    -webkit-box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-            box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .button-modal-send {
@@ -214,8 +208,7 @@ footer {
     background-color: white;
     width: 115px;
     border-radius: 5px 20px 5px 5px;
-    -webkit-box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
-            box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
+    box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
     border: 1px solid #fc9700;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -226,8 +219,7 @@ footer {
 .button-modal-send:hover {
     background-color: #fc9700;
     color: white;
-    -webkit-box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-            box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 /* Skills section */
@@ -246,8 +238,7 @@ footer {
     padding: 1px;
     padding-bottom: 3px;
     border-radius: 3px;
-    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
-            box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
     color:#333;
     font-size:0.75rem;
     text-align:left;
@@ -261,8 +252,6 @@ footer {
     padding-top:3px;
     padding-left:5px;
     color: white;
-    -webkit-transition: width 500ms ease-in-out;
-    -o-transition: width 500ms ease-in-out;
     transition: width 500ms ease-in-out;
     font-size:1rem;
 }
@@ -275,8 +264,6 @@ footer {
     width: 100%;
     text-align: center;
     outline: none;
-    -webkit-transition: 0.4s;
-    -o-transition: 0.4s;
     transition: 0.4s;
 }
 
@@ -295,11 +282,8 @@ footer {
 }
 
  .btn-link {
-    -ms-flex-item-align: auto;
-        -ms-grid-row-align: auto;
-        align-self: auto;
-    -webkit-box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
-            box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
+    align-self: auto;
+    box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
     width: 310px;
     border-radius: 5px 20px 5px 5px;
     border: 1px solid #fc9700;
@@ -313,8 +297,7 @@ footer {
 .btn-link:hover {
     background-color: #fc9700;
     color: white;
-    -webkit-box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-            box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 /* Style the accordion panel. Note: hidden by default */
 .panel {
@@ -426,9 +409,7 @@ footer {
     font-weight: bold;
     font-size: 22px;
     border-radius: 0 3px 3px 0;
-    -moz-user-select: none;
-     -ms-user-select: none;
-         user-select: none;
+    user-select: none;
     -webkit-user-select: none;
 }
 
@@ -456,9 +437,7 @@ footer {
     font-weight: bold;
     font-size: 22px;
     border-radius: 0 3px 3px 0;
-    -moz-user-select: none;
-     -ms-user-select: none;
-         user-select: none;
+    user-select: none;
     -webkit-user-select: none;
 }
 
@@ -486,9 +465,7 @@ footer {
     font-weight: bold;
     font-size: 22px;
     border-radius: 0 3px 3px 0;
-    -moz-user-select: none;
-     -ms-user-select: none;
-         user-select: none;
+    user-select: none;
     -webkit-user-select: none;
 }
 
