@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Niramit:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700&display=swap');
 
-/* Keep some handy colours
-Yellow #fce500
-Grey #333
-Blue #27509b
-orange #fc9700
-*/
+/* General (over-all-site) styles */
 
 * {
     -webkit-box-sizing: border-box;
@@ -21,51 +16,6 @@ orange #fc9700
 html, body {
     height: 100%;
     position: relative;
-    /* background: url('background.png') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-     background-size: cover;
-    -o-background-size: cover; */
-}
-
-/* body {
-    background-color: #fc9700;
-    background-image: url("https://www.transparenttextures.com/patterns/blu-stripes.png");
-} */
-
-.main-container {
-    min-height: 100vh; /* will cover the 100% of viewport */
-    overflow: hidden;
-    display: block;
-    position: relative;
-    padding-bottom: 100px; /* height of your footer */
-}
-
-.container-history {
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-
-.button-custom {
-    color:#27509b;
-    font-size: 1.3rem;
-    background-color: white;
-    -webkit-box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
-            box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
-    width: 165px;
-    border-radius: 5px 20px 5px 5px;
-    border: 1px solid #fc9700;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.button-custom:hover {
-    background-color: #fc9700;
-    color: white;
-    -webkit-box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-            box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 h2{
@@ -102,6 +52,45 @@ p {
     border-radius: 10px;
 }
 
+/* main-container used on all html pages to ensure consistency, tied into footer position */
+.main-container {
+    min-height: 100vh; /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px; /* height of your footer */
+}
+
+.main-container  .img-locked {
+    display: block;
+    min-width: 175px;
+    max-height: 100%;
+}
+
+/* Default styling for buttons like contact me on index.html */
+.button-custom {
+    color:#27509b;
+    font-size: 1.3rem;
+    background-color: white;
+    -webkit-box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
+            box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
+    width: 165px;
+    border-radius: 5px 20px 5px 5px;
+    border: 1px solid #fc9700;
+    transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+}
+
+.button-custom:hover {
+    background-color: #fc9700;
+    color: white;
+    -webkit-box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* Styling of the nav system used on all html pages */
 .navbar-nav {
     padding: 5px;
     font-family: Niramit, sans-serif;
@@ -111,9 +100,9 @@ p {
 .nav-link {
     color:#020247!important;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
 }
 
 .dropdown-item {
@@ -122,19 +111,17 @@ p {
     font-size: 16px;
     color:#020247;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
 }
 
 #active {
     font-weight: 600!important;
-    /* color:#fc9700!important; */
 }
 
 #active-projects {
     font-weight: 600!important;
-    /* color:#fc9700!important; */
 }
 
 .nav-link:hover {
@@ -145,13 +132,7 @@ p {
     color:#fc9700;
 }
 
-.main-container  .img-locked {
-    display: block;
-    min-width: 175px;
-    max-height: 100%;
-}
-
-/* Footer section */
+/* Footer section used on all html pages, ties in with .main-container to ensure always at the bottom */
 footer {
     position: absolute;
     bottom: 0;
@@ -165,9 +146,9 @@ footer {
     text-align: center;
     padding-bottom: 5px;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
 }
 
 .cv-pdf:hover {
@@ -176,16 +157,14 @@ footer {
 }
 
 .icon {
-    margin-top: 4px;
     text-decoration: none;
     display: inline;
     padding: 5px;
     text-align: center;
-
 }
 
 .icon:hover {
-    margin-top: 0px;
+    margin-top: -4px;
     text-decoration: none;
 }
 
@@ -200,9 +179,9 @@ footer {
             box-shadow: 11px 15px 26px -7px rgba(134, 108, 108, 0.66);
     border: 1px solid #fc9700;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
 }
 
 .button-modal-cancel:hover {
@@ -222,9 +201,9 @@ footer {
             box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
     border: 1px solid #fc9700;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
 }
 
 .button-modal-send:hover {
@@ -234,7 +213,7 @@ footer {
             box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-/* Skills section */
+/* Skills section progress bars in skills.html */
 .wrapper {
     padding-top: 10px;
     margin-bottom: 10px;
@@ -246,7 +225,7 @@ footer {
 
 .progress-bar {
     width: 100%;
-    background-color: whitesmoke; /*#8b9aa8;*/
+    background-color: whitesmoke;
     padding: 1px;
     padding-bottom: 3px;
     border-radius: 3px;
@@ -265,8 +244,8 @@ footer {
     padding-top:3px;
     padding-left:5px;
     color: white;
-    -webkit-transition: width 500ms ease-in-out;
-    -o-transition: width 500ms ease-in-out;
+        -webkit-transition: width 500ms ease-in-out;
+        -o-transition: width 500ms ease-in-out;
     transition: width 500ms ease-in-out;
     font-size:1rem;
 }
@@ -275,21 +254,20 @@ footer {
     padding-bottom: 120px;
 }
 
-/* Style the buttons that are used to open and close the accordion panel */
+/* Accordion panel in history.html */
 .accordion {
     background-color: white;
     color: #444;
     width: 100%;
     text-align: center;
     outline: none;
-    -webkit-transition: 0.4s;
-    -o-transition: 0.4s;
+        -webkit-transition: 0.4s;
+        -o-transition: 0.4s;
     transition: 0.4s;
 }
 
 .card {
     border-color: white;
-
 }
 
 .card-header {
@@ -300,7 +278,7 @@ footer {
     padding-top: 0;
 }
 
-.link-visit-employer{
+.link-visit-employer {
     color:#27509b;
     padding-bottom: 50px;
     margin: 0px;
@@ -308,11 +286,10 @@ footer {
 
 .link-visit-employer:hover {
     color:#fc9700;
-
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
 }
 
  .btn-link {
@@ -325,9 +302,9 @@ footer {
     border: 1px solid #fc9700;
     color:#27509b;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
 }
 
 .btn-link:hover {
@@ -336,14 +313,19 @@ footer {
     -webkit-box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
             box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-/* Style the accordion panel. Note: hidden by default */
+
 .panel {
     background-color: white;
     display: none;
     overflow: hidden;
 }
 
-/* Carousel slider in Projects */
+.card-img {
+    margin-left: 2%;
+    width: 96%;
+}
+
+/* Carousel slider styling in Projects.html */
 .carousel-container {
     margin:0%;
     padding-right: 40px;
@@ -364,19 +346,12 @@ footer {
     font-style: italic;
 }
 
-.w-100 {
-    width: 100%!important;
-}
-
-/* Slideshow styling */
-
-/* Position the image container (needed to position the left and right arrows) */
+/* Slideshow styling in Projects.html, project 1 is styled differently */
 .container-imagesp1 {
     border-top-left-radius: 25px;
-    margin-left: 15px;
-    margin-right:10px;
-    margin-top:50px;
-
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
     position: relative;
 }
 
@@ -385,7 +360,6 @@ footer {
     margin-left: 5px;
     margin-right:5px;
     margin-top:50px;
-
     position: relative;
 }
 
@@ -397,43 +371,23 @@ footer {
     position: relative;
 }
 
-/* Hide the images by default */
-.mySlidesp1 {
+    /* Hide the slideshow images for all projects */
+.myslides {
     display: none;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
-.mySlidesp2 {
-    display: none;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-.mySlidesp3 {
-    display: none;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-.project-main-imagep1 {
+.project-image {
     border: solid #fc9700 1px;
 }
 
-.project-main-imagep2 {
-    border: solid #fc9700 1px;
-}
-
-.project-main-imagep3 {
-    border: solid #fc9700 1px;
-}
-
-/* Add a pointer when hovering over the thumbnail images */
+    /* Thumbnail images for all projects */
 .cursor {
     cursor: pointer;
 }
 
-/* Next & previous buttons */
+    /* Next & previous buttons */
 .prevp1,
 .nextp1 {
     cursor: pointer;
@@ -452,13 +406,12 @@ footer {
     -webkit-user-select: none;
 }
 
-/* Position the "next button" to the right */
+    /* Position the P1 next button to the right */
 .nextp1 {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with see-through */
 .prevp1:hover,
 .nextp1:hover {
     background-color: rgba(0, 0, 0, 0.2);
@@ -482,13 +435,12 @@ footer {
     -webkit-user-select: none;
 }
 
-/* Position the "next button" to the right */
+    /* Position the P2 next button to the right */
 .nextp2 {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prevp2:hover,
 .nextp2:hover {
     background-color: rgba(0, 0, 0, 0.2);
@@ -512,26 +464,25 @@ footer {
     -webkit-user-select: none;
 }
 
-/* Position the "next button" to the right */
+    /* Position the P3 next button to the right */
 .nextp3 {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prevp3:hover,
 .nextp3:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-/* Container for image text */
+    /* Container for each project image text */
 .caption-containerp1 {
     font-size: 16px;
     padding-left: 5px;
     padding-right: 20px;
     border-top-left-radius: 5px;
     border-top-right-radius: 24px;
-    height:66px;
+    min-height: 66px;
     text-align: center;
     background-color: #333;
     color: white;
@@ -543,7 +494,7 @@ footer {
     padding-right: 20px;
     border-top-left-radius: 5px;
     border-top-right-radius: 24px;
-    height:66px;
+    min-height: 66px;
     text-align: center;
     background-color: #333;
     color: white;
@@ -555,25 +506,13 @@ footer {
     padding-right: 20px;
     border-top-left-radius: 5px;
     border-top-right-radius: 24px;
-    height:66px;
+    min-height: 66px;
     text-align: center;
     background-color: #333;
     color: white;
 }
 
-.thumbnailsp1 {
-    border: solid #fc9700 1px;
-    border-top:white;
-    width:100%;
-}
-
-.thumbnailsp2 {
-    border: solid #fc9700 1px;
-    border-top:white;
-    width:100%;
-}
-
-.thumbnailsp3 {
+.thumbnails {
     border: solid #fc9700 1px;
     border-top:white;
     width:100%;
@@ -585,14 +524,14 @@ footer {
     clear: both;
 }
 
-/* Six columns side by side for Project 1 (full width) */
+    /* Six columns side by side for Project 1 (full width) */
 .projectp1 {
     padding:1px;
     float: left;
     width: 16.66%;
 }
 
-/* Four columns side by side, secondary projects, in med view will be full width*/
+    /* Four columns side by side, secondary projects, in med view will be full width*/
 .projectp2 {
     padding:1px;
     float: left;
@@ -605,9 +544,9 @@ footer {
     width: 25%;
 }
 
-/* Add a transparency effect for thumnbail images */
+    /* Add a transparency effect for project thumnbail images */
 .demop1 {
-    opacity: 0.6;
+    opacity: 0.3;
 }
 
 .active,
@@ -616,7 +555,7 @@ footer {
 }
 
 .demop2 {
-    opacity: 0.6;
+    opacity: 0.3;
 }
 
 .active,
@@ -625,7 +564,7 @@ footer {
 }
 
 .demop3 {
-    opacity: 0.6;
+    opacity: 0.3;
 }
 
 .active,
