@@ -42,8 +42,8 @@ html, body {
 }
 
 .container-history {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .button-custom {
@@ -90,13 +90,14 @@ h5{
 }
 
 p {
-    padding: 3.5rem;
+    padding: 10%;
+    padding-bottom: 60px;
     margin:25px;
     text-align: center;
     color: #333;
 }
 
-.image-radius{
+.image-radius {
     border:white;
     border-radius: 10px;
 }
@@ -161,8 +162,8 @@ footer {
     font-size: 16px;
     font-family: niramit, sans-serif;
     color: white;
-    text-align: left;
-    padding-left: 5px;
+    text-align: center;
+    padding-bottom: 5px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -174,15 +175,18 @@ footer {
     color: #fc9700;
 }
 
-.col .icon {
+.icon {
+    margin-top: 4px;
     text-decoration: none;
     display: inline;
-    padding: 3px;
+    padding: 5px;
     text-align: center;
+
 }
 
 .icon:hover {
-    padding: 6px;
+    margin-top: 0px;
+    text-decoration: none;
 }
 
 /* Components used in the modal contact form */
@@ -267,17 +271,25 @@ footer {
     font-size:1rem;
 }
 
+.container-skills {
+    padding-bottom: 120px;
+}
+
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
     background-color: white;
     color: #444;
-    padding: 5%;
     width: 100%;
     text-align: center;
     outline: none;
     -webkit-transition: 0.4s;
     -o-transition: 0.4s;
     transition: 0.4s;
+}
+
+.card {
+    border-color: white;
+
 }
 
 .card-header {
@@ -292,6 +304,15 @@ footer {
     color:#27509b;
     padding-bottom: 50px;
     margin: 0px;
+}
+
+.link-visit-employer:hover {
+    color:#fc9700;
+
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
  .btn-link {

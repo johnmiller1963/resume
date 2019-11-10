@@ -21,3 +21,4 @@ Things that don't work, but need to move on for now ;-)
 
 12) post git page in peer-code-review in slack
 13) readme https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+14) footer 3 blocks of 3 (icons split into 2 blocks of 3) break on small device
