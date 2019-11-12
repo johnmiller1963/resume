@@ -26,3 +26,36 @@ Things that don't work, but need to move on for now ;-)
 13) #Done - footer 3 blocks of 3 (icons split into 2 blocks of 3) break on small device
 
 readme https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+Valiadate html at https://validator.w3.org
+Results:
+index.html - Document checking completed. No errors or warnings to show.
+history.html - Document checking completed. No errors or warnings to show.
+skills.html - Document checking completed. No errors or warnings to show.
+projects.html - Document checking completed. No errors or warnings to show.
+
+Validate css https://jigsaw.w3.org/css-validator/
+Results:
+Congratulations! No Error Found.
+This document validates as CSS level 3 + SVG !
+
+To show your readers that you've taken the care to create an interoperable Web page, you may display this icon on any page that validates. Here is the XHTML you could use to add this icon to your Web page:
+
+Valid CSS!
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+            
+Valid CSS!
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
+        

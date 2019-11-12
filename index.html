@@ -15,7 +15,7 @@
         <!-- Main Nav element used on all pages -->
         <nav class="navbar navbar-light navbar-expand-sm bg-white navbar-default">
             <a class="navbar-brand mt-2 ml-2" href="index.html">
-                <img src="assets/images/profile_round-blank.png" width="55" height="55" alt="">
+                <img src="assets/images/background/favicon.png" width="50" height="50" alt="image icon">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -42,8 +42,8 @@
                             <a class="dropdown-item" href="projects.html#testimonials">Testimonials</a>
                         </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#modalcontactme" data-toggle = "modal" data-target= "#modalcontactme" class="nav-link">
+                    <li class="nav-item" data-toggle = "modal" data-target= "#modalcontactme">
+                        <a class="nav-link"> 
                             Contact
                         </a>
                     </li>
@@ -52,7 +52,7 @@
         </nav>
 
         <!-- Modal Contact me form used on all pages -->
-        <div class="modal fade" id="modalcontactme" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal fade" id="modalcontactme" tabindex="-1" role="dialog" aria-labelledby="modalcontactme" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -62,7 +62,7 @@
                             </button>
                     </div>
                     <div class="modal-body">
-                        <form role="form" data-toggle="validator">
+                        <form data-toggle="validator">
                             <div class="form-group">
                                 <label for="sender-name" class="col-form-label">Your name: (Required)</label>
                                 <input type="text" class="form-control" id="sender-name" placeholder="Your name?" required>
@@ -98,7 +98,7 @@
                 </div>
                 <div class="col-sm-6 text-center order-1 d-sm-block">
                     <h2>John Miller</h2>
-                    <button class="btn button-custom mt-5" href="#modalcontactme" data-toggle = "modal" data-target= "#modalcontactme">Contact me</button>
+                    <button class="btn button-custom mt-5" data-toggle = "modal" data-target= "#modalcontactme">Contact me</button>
                         <p>
                             Long ago I taught myself software development to remove the mundane routine tasks required in my job.<br>I've been refining and improving my programming skills ever since, <br>I continue to learn. As they say, everyday is a school day!
                         </p>
