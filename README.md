@@ -6,6 +6,8 @@ Ref for text carousel used in projects https://codepen.io/cassidoo/pen/MyaWzp
 Auto-prefixer https://autoprefixer.github.io/
 Carosel https://www.w3schools.com/bootstrap4/bootstrap_carousel.asp
 Accordian https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp
+Social icons https://www.iconfinder.com/search/?q=social%20media&style=long-shadow
+
 
 Things that don't work, but need to move on for now ;-)
 

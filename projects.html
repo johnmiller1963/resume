@@ -11,45 +11,47 @@
     <link rel="shortcut icon" type="image/png" href="assets/images/background/favicon.png">
 </head>
     <body>
-         <container class="topmenu">
-            <nav class="navbar navbar-light navbar-expand-sm bg-white navbar-default">
-                <a class="navbar-brand" href="https://codeinstitute.net" target="_blank">
-                    <img src="assets/images/logo.png" width="60" height="33" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Hello!<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="history.html">History</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="skills.html">Skills</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="active" href="projects.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Projects
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="projects.html#project1">WIP system</a>
-                                <a class="dropdown-item" href="projects.html#project2">Job tracking</a>
-                                <a class="dropdown-item" href="projects.html#project3">Document management</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#modalcontactme" data-toggle = "modal" data-target= "#modalcontactme" class="nav-link">
-                                Contact
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </container> <!-- End of Top Menu -->
 
+        <!-- Main Nav element used on all pages -->
+        <nav class="navbar navbar-light navbar-expand-sm bg-white navbar-default">
+            <a class="navbar-brand mt-2 ml-2" href="index.html">
+                <img src="assets/images/profile_round.png" width="55" height="55" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Hello!<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="history.html">History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="skills.html">Skills</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="active" href="projects.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Projects
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="projects.html#project1">WIP system</a>
+                            <a class="dropdown-item" href="projects.html#project2">Job tracking</a>
+                            <a class="dropdown-item" href="projects.html#project3">Document management</a>
+                            <a class="dropdown-item" href="projects.html#testimonials">Testimonials</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#modalcontactme" data-toggle = "modal" data-target= "#modalcontactme" class="nav-link">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Modal Contact me form used on all pages -->
         <div class="modal fade" id="modalcontactme" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -78,218 +80,212 @@
                                 <input type="file" class="custom-file-input" id="customFile">
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary button-modal-cancel" data-dismiss="modal">Close</button>
-                                <button type="submit" class="btn btn-primary button-modal-send">Submit</button>
+                                <button type="button" class="btn btn-secondary button-modal button-modal-cancel" data-dismiss="modal">Close</button>
+                                <button type="submit" class="btn ml-3 btn-primary button-modal button-modal-send">Submit</button>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
-        </div> <!-- End of Modal Contact me form -->
+        </div> 
 
+        <!-- Main Content -->
         <div class="main-container">
-
+            <!-- Project 1 ERP & Work in progress system slider -->
             <div id="project1" class="project1">
-                <h2>Work in Progress</h2>
+                <h2>ERP-WIP System</h2>
 
                 <!-- Container for the image gallery -->
-                <div class="row container-imagesp1">
+                <div class="container-images">
+                        <!-- Full-width images with number text -->
+                        <div class="myslides mySlidesp1">
+                            <div class="caption-container" style="width:100%">1 of 6: Real-time graphical reporting of production and quality metrics</div>
+                            <img class="img-fluid project-image active" src="assets/images/projects/wip1.png" style="width:100%">
+                        </div>
 
-                    <!-- Full-width images with number text -->
-                    <div class="myslides mySlidesp1">
-                        <div class="caption-containerp1 centre" style="width:100%">1 of 6: Real-time graphical reporting of production and quality metrics</div>
-                        <img class="img-fluid project-image active" src="assets/images/projects/wip1.png" style="width:100%">
-                    </div>
+                        <div class="myslides mySlidesp1">
+                            <div class="caption-container" style="width:100%">2 of 6: Tablet or AIO touch-screen data input by team members for each job they work on</div>
+                            <img class="img-fluid project-image" src="assets/images/projects/wip2.png" style="width:100%">
+                        </div>
 
-                   <div class="myslides mySlidesp1">
-                        <div class="caption-containerp1 centre" style="width:100%">2 of 6: Tablet or AIO touch-screen data input by team members for each job they work on</div>
-                        <img class="img-fluid project-image" src="assets/images/projects/wip2.png" style="width:100%">
-                    </div>
+                        <div class="myslides mySlidesp1">
+                            <div class="caption-container" style="width:100%">3 of 6: Add or edit new customers, keep track of updates and modifications, logo and multiple contacts for each client</div>
+                            <img class="img-fluid project-image" src="assets/images/projects/wip3.png" style="width:100%">
+                        </div>
 
-                   <div class="myslides mySlidesp1">
-                        <div class="caption-containerp1 centre" style="width:100%">3 of 6: Add or edit new customers, keep track of updates and modifications, logo and multiple contacts for each client</div>
-                        <img class="img-fluid project-image" src="assets/images/projects/wip3.png" style="width:100%">
-                    </div>
+                        <div class="myslides mySlidesp1">
+                            <div class="caption-container" style="width:100%">4 of 6: System will present accurate real-time recording with default time, supervisor can agree or over-ride paid hours</div>
+                            <img class="img-fluid project-image" src="assets/images/projects/wip4.png" style="width:100%">
+                        </div>
 
-                   <div class="myslides mySlidesp1">
-                        <div class="caption-containerp1 centre" style="width:100%">4 of 6: System will present accurate real-time recording with default time, supervisor can agree or over-ride paid hours</div>
-                        <img class="img-fluid project-image" src="assets/images/projects/wip4.png" style="width:100%">
-                    </div>
+                        <div class="myslides mySlidesp1">
+                            <div class="caption-container" style="width:100%">5 of 6: Manager is prompted with secure password to display the hours worked and staff costs, report include pension contributions etc</div>
+                            <img class="img-fluid project-image" src="assets/images/projects/wip5.png" style="width:100%">
+                        </div>
 
-                   <div class="myslides mySlidesp1">
-                        <div class="caption-containerp1 centre" style="width:100%">5 of 6: Manager is prompted with secure password to display the hours worked and staff costs, report include pension contributions etc</div>
-                        <img class="img-fluid project-image" src="assets/images/projects/wip5.png" style="width:100%">
-                    </div>
-
-                   <div class="myslides mySlidesp1">
-                        <div class="caption-containerp1 centre" style="width:100%">6 of 6: Every job is booked into the system and unique barcodes printed, standard Avery labels can be set to use a full sheet or use part used pages (no waste)</div>
-                        <img class="img-fluid project-image" src="assets/images/projects/wip6.png" style="width:100%">
-                    </div>
-
+                        <div class="myslides mySlidesp1">
+                            <div class="caption-container" style="width:100%">6 of 6: Every job is booked into the system and unique barcodes printed, standard Avery labels can be set to use a full sheet or use part used pages (no waste)</div>
+                            <img class="img-fluid project-image" src="assets/images/projects/wip6.png" style="width:100%">
+                        </div>
+                    
                     <!-- Next and previous buttons -->
                     <a class="prevp1" onclick="plusSlidesp1(-1)">&#10094;</a>
                     <a class="nextp1" onclick="plusSlidesp1(1)">&#10095;</a>
 
-                    <!-- Image text -->
                     <!-- Thumbnail images -->
                     <div class="thumbnails">
                         <div class="column projectp1">
-                        <img class="demop1 cursor img-Thumbnailp1" src="assets/images/projects/wip1th.png" style="width:100%" onclick="currentSlidep1(1)" alt="Image 1">
+                            <img class="demop1 cursor img-Thumbnailp1" src="assets/images/projects/wip1th.png" style="width:100%" onclick="currentSlidep1(1)" alt="Thumb 1">
                         </div>
                         <div class="column projectp1">
-                        <img class="demop1 cursor" src="assets/images/projects/wip2th.png" style="width:100%" onclick="currentSlidep1(2)" alt="Cinque Terre">
+                            <img class="demop1 cursor" src="assets/images/projects/wip2th.png" style="width:100%" onclick="currentSlidep1(2)" alt="Thumb 2">
                         </div>
                         <div class="column projectp1">
-                        <img class="demop1 cursor" src="assets/images/projects/wip3th.png" style="width:100%" onclick="currentSlidep1(3)" alt="Mountains and fjords">
+                            <img class="demop1 cursor" src="assets/images/projects/wip3th.png" style="width:100%" onclick="currentSlidep1(3)" alt="Thumb 3">
                         </div>
                         <div class="column projectp1">
-                        <img class="demop1 cursor" src="assets/images/projects/wip4th.png" style="width:100%" onclick="currentSlidep1(4)" alt="Northern Lights">
+                            <img class="demop1 cursor" src="assets/images/projects/wip4th.png" style="width:100%" onclick="currentSlidep1(4)" alt="Thumb 4">
                         </div>
                         <div class="column projectp1">
-                        <img class="demop1 cursor" src="assets/images/projects/wip5th.png" style="width:100%" onclick="currentSlidep1(5)" alt="">
+                            <img class="demop1 cursor" src="assets/images/projects/wip5th.png" style="width:100%" onclick="currentSlidep1(5)" alt="Thumb 5">
                         </div>
                         <div class="column projectp1">
-                        <img class="demop1 cursor" src="assets/images/projects/wip6th.png" style="width:100%" onclick="currentSlidep1(6)" alt="Snowy Mountains">
+                            <img class="demop1 cursor" src="assets/images/projects/wip6th.png" style="width:100%" onclick="currentSlidep1(6)" alt="Thumb 6">
                         </div>
                     </div>
                 </div>
-            </div>  <!-- End of project 1 -->
+            </div>
 
-            <div class="container-fluid"> <!-- Contains both projects 2 & 3 -->
-                <div class="row">
-                    <div class="col-md my-3 p-3">
-                        <div id="project2" class="project2">
-                        <h3>Detailed Job-Tracking</h3>
+            <!-- Project 2 Job tracking slider -->
+            <div id="project2" class="project2 project-move-down">
+                <h2>Detailed Job-Tracking</h2>
 
-                            <!-- Container for the image gallery -->
-                            <div class="row container-imagesp2">
+                <!-- Container for the image gallery -->
+                <div class="container-images">
 
-                                <!-- Full-width images with number text -->
-                            <div class="myslides mySlidesp2">
-                                <div class="caption-containerp2 centre" style="width:100%">1 of 4: Traffic light system for job status</div>
-                                <img class="img-fluid project-image" src="assets/images/projects/p2-1.png" style="width:100%">
-                            </div>
-
-                            <div class="myslides mySlidesp2">
-                                    <div class="caption-containerp2 centre" style="width:100%">2 of 4: Detailed tracking of all activity for a job and linked files on the network</div>
-                                    <img class="img-fluid project-image" src="assets/images/projects/p2-2.png" style="width:100%">
-                                </div>
-
-                            <div class="myslides mySlidesp2">
-                                    <div class="caption-containerp2 centre" style="width:100%">3 of 4: Production of job specific risk assessments, always dynamic and up to date</div>
-                                    <img class="img-fluid project-image" src="assets/images/projects/p2-3.png" style="width:100%">
-                                </div>
-
-                            <div class="myslides mySlidesp2">
-                                    <div class="caption-containerp2 centre" style="width:100%">4 of 4: Password protected admin screen for all global properties, jobs automatically locked when flagged as finished</div>
-                                    <img class="img-fluid project-image" src="assets/images/projects/p2-4.png" style="width:100%">
-                                </div>
-
-                                <!-- Next and previous buttons -->
-                                <a class="prevp2" onclick="plusSlidesp2(-1)">&#10094;</a>
-                                <a class="nextp2" onclick="plusSlidesp2(1)">&#10095;</a>
-
-                                <!-- Image text -->
-                                <!-- Thumbnail images -->
-                                <div class="thumbnails">
-                                    <div class="column projectp2">
-                                    <img class="demop2 cursor img-Thumbnailp2" src="assets/images/projects/p2-1th.png" style="width:100%" onclick="currentSlidep2(1)" alt="Thumb 1">
-                                    </div>
-                                    <div class="column projectp2">
-                                    <img class="demop2 cursor" src="assets/images/projects/p2-2th.png" style="width:100%" onclick="currentSlidep2(2)" alt="Thumb 2">
-                                    </div>
-                                    <div class="column projectp2">
-                                    <img class="demop2 cursor" src="assets/images/projects/p2-3th.png" style="width:100%" onclick="currentSlidep2(3)" alt="Thumb 3">
-                                    </div>
-                                    <div class="column projectp2">
-                                    <img class="demop2 cursor" src="assets/images/projects/p2-4th.png" style="width:100%" onclick="currentSlidep2(4)" alt="Thumb 4">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <!-- Full-width images -->
+                    <div class="myslides mySlidesp2">
+                        <div class="caption-container centre" style="width:100%">1 of 4: Traffic light system for job status</div>
+                            <img class="img-fluid project-image" src="assets/images/projects/p2-1.png" style="width:100%">
                     </div>
 
-                    <div class="col-md my-3 p-3">
-                        <div id="project3" class="project3">
-                        <h3>Document Management</h3>
+                    <div class="myslides mySlidesp2">
+                        <div class="caption-container centre" style="width:100%">2 of 4: Detailed tracking of all activity for a job and linked files on the network</div>
+                            <img class="img-fluid project-image" src="assets/images/projects/p2-2.png" style="width:100%">
+                    </div>
 
-                            <!-- Container for the image gallery -->
-                            <div class="row container-imagesp3">
+                    <div class="myslides mySlidesp2">
+                        <div class="caption-container centre" style="width:100%">3 of 4: Production of job specific risk assessments, always dynamic and up to date</div>
+                            <img class="img-fluid project-image" src="assets/images/projects/p2-3.png" style="width:100%">
+                    </div>
 
-                                <!-- Full-width images with number text -->
-                                <div class="myslides mySlidesp3">
-                                    <div class="caption-containerp3 centre" style="width:100%">1 of 4: Full video based help system hosted on You Tube</div>
-                                    <img class="img-fluid project-image" src="assets/images/projects/p3-1.png" style="width:100%">
-                                </div>
+                    <div class="myslides mySlidesp2">
+                        <div class="caption-container centre" style="width:100%">4 of 4: Password protected admin screen for all global properties, jobs automatically locked when flagged as finished</div>
+                            <img class="img-fluid project-image" src="assets/images/projects/p2-4.png" style="width:100%">
+                    </div>
 
-                                <div class="myslides mySlidesp3">
-                                    <div class="caption-containerp3 centre" style="width:100%">2 of 4: Search millions of electronic documents in seconds with Google style search, immediate image preview</div>
-                                    <img class="img-fluid project-image" src="assets/images/projects/p3-2.png" style="width:100%">
-                                </div>
+                    <!-- Next and previous buttons -->
+                    <a class="prevp2" onclick="plusSlidesp2(-1)">&#10094;</a>
+                    <a class="nextp2" onclick="plusSlidesp2(1)">&#10095;</a>
 
-                                <div class="myslides mySlidesp3">
-                                    <div class="caption-containerp3 centre" style="width:100%">3 of 4: Full read-only audit log of all system activity, can be filtered by user of type of activity</div>
-                                    <img class="img-fluid project-image" src="assets/images/projects/p3-3.png" style="width:100%">
-                                </div>
-
-                                <div class="myslides mySlidesp3">
-                                    <div class="caption-containerp3 centre" style="width:100%">4 of 4: Detailed image viewer with MS Outlook integration and save some pages or all to PDF etc</div>
-                                    <img class="img-fluid project-image" src="assets/images/projects/p3-4.png" style="width:100%">
-                                </div>
-
-
-                                <!-- Next and previous buttons -->
-                                <a class="prevp3" onclick="plusSlidesp3(-1)">&#10094;</a>
-                                <a class="nextp3" onclick="plusSlidesp3(1)">&#10095;</a>
-
-                                <!-- Image text -->
-                                <!-- Thumbnail images -->
-                                <div class="thumbnails">
-                                    <div class="column projectp3">
-                                    <img class="demop3 cursor img-Thumbnailp3" src="assets/images/projects/p3-1th.png" style="width:100%" onclick="currentSlidep3(1)" alt="Thumb 1">
-                                    </div>
-                                    <div class="column projectp3">
-                                    <img class="demop3 cursor" src="assets/images/projects/p3-2th.png" style="width:100%" onclick="currentSlidep3(2)" alt="Thumb 2">
-                                    </div>
-                                    <div class="column projectp3">
-                                    <img class="demop3 cursor" src="assets/images/projects/p3-3th.png" style="width:100%" onclick="currentSlidep3(3)" alt="Thumb 3">
-                                    </div>
-                                    <div class="column projectp3">
-                                    <img class="demop3 cursor" src="assets/images/projects/p3-4th.png" style="width:100%" onclick="currentSlidep3(4)" alt="Thumb 4">
-                                    </div>
-                                </div>
-                            </div>
+                    <!-- Thumbnail images -->
+                    <div class="thumbnails">
+                        <div class="column projectp2">
+                            <img class="demop2 cursor img-Thumbnailp2" src="assets/images/projects/p2-1th.png" style="width:100%" onclick="currentSlidep2(1)" alt="Thumb 1">
+                        </div>
+                        <div class="column projectp2">
+                            <img class="demop2 cursor" src="assets/images/projects/p2-2th.png" style="width:100%" onclick="currentSlidep2(2)" alt="Thumb 2">
+                        </div>
+                        <div class="column projectp2">
+                            <img class="demop2 cursor" src="assets/images/projects/p2-3th.png" style="width:100%" onclick="currentSlidep2(3)" alt="Thumb 3">
+                        </div>
+                        <div class="column projectp2">
+                            <img class="demop2 cursor" src="assets/images/projects/p2-4th.png" style="width:100%" onclick="currentSlidep2(4)" alt="Thumb 4">
                         </div>
                     </div>
                 </div>
-            </div> <!-- End of container for projects 2 & 3 -->
+            </div>
 
-            <div class="carousel-container m-4 pb-5">
-                <h5>Quotes for existing projects</h5>
-                <div class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
+            <!-- Project 3 Document management slider -->
+            <div id="project3" class="project3-container project-move-down">
+                <h2>Document Management</h2>
+
+                <!-- Container for the image gallery -->
+                <div class="container-images">
+
+                    <!-- Full-width images -->
+                    <div class="myslides mySlidesp3">
+                        <div class="caption-container centre" style="width:100%">1 of 4: Full video based help system hosted on You Tube</div>
+                            <img class="img-fluid project-image" src="assets/images/projects/p3-1.png" style="width:100%">
+                    </div>
+
+                    <div class="myslides mySlidesp3">
+                        <div class="caption-container centre" style="width:100%">2 of 4: Search millions of electronic documents in seconds with Google style search, immediate image preview</div>
+                            <img class="img-fluid project-image" src="assets/images/projects/p3-2.png" style="width:100%">
+                    </div>
+
+                    <div class="myslides mySlidesp3">
+                        <div class="caption-container centre" style="width:100%">3 of 4: Full read-only audit log of all system activity, can be filtered by user of type of activity</div>
+                            <img class="img-fluid project-image" src="assets/images/projects/p3-3.png" style="width:100%">
+                    </div>
+
+                    <div class="myslides mySlidesp3">
+                        <div class="caption-container centre" style="width:100%">4 of 4: Detailed image viewer with MS Outlook integration and save some pages or all to PDF etc</div>
+                            <img class="img-fluid project-image" src="assets/images/projects/p3-4.png" style="width:100%">
+                    </div>
+
+
+                    <!-- Next and previous buttons -->
+                    <a class="prevp3" onclick="plusSlidesp3(-1)">&#10094;</a>
+                    <a class="nextp3" onclick="plusSlidesp3(1)">&#10095;</a>
+
+                    <!-- Thumbnail images -->
+                    <div class="thumbnails">
+                        <div class="column projectp3">
+                            <img class="demop3 cursor img-Thumbnailp3" src="assets/images/projects/p3-1th.png" style="width:100%" onclick="currentSlidep3(1)" alt="Thumb 1">
+                        </div>
+                        <div class="column projectp3">
+                            <img class="demop3 cursor" src="assets/images/projects/p3-2th.png" style="width:100%" onclick="currentSlidep3(2)" alt="Thumb 2">
+                        </div>
+                        <div class="column projectp3">
+                            <img class="demop3 cursor" src="assets/images/projects/p3-3th.png" style="width:100%" onclick="currentSlidep3(3)" alt="Thumb 3">
+                        </div>
+                        <div class="column projectp3">
+                            <img class="demop3 cursor" src="assets/images/projects/p3-4th.png" style="width:100%" onclick="currentSlidep3(4)" alt="Thumb 4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonials presented as a carousel -->
+            <div id="testimonials" class="carousel-container p-5 project-move-down">
+                <h2>Quotes for existing projects</h2>
+                <div class="carousel slide" data-ride="carousel" data-interval="6000">
+                    <div class="carousel-inner mt-5 mb-5">
                         <ul>
                             <li class="carousel-item active">
                                 <div class="quote">I have known John for a number of years, he has looked after our PC hardware, backups, and has made 3 destinct bespoke software systems that have helped us to improve our business.  He has also helped us when we have had hardware issues and network problems and his swift response had us back up and running quickly.</div>
-                                <div class="source">Carl Ford - Managing Director UKUSP</div>
+                                <div class="source"><br>Carl Ford - Managing Director UKUSP</div>
                             </li>
                             <li class="carousel-item">
                                 <div class="quote">As a business owner I am constantly looking at ways to improve the running of my business with a view to streamlining existing processes and delivering better results for my customers.  I am always thinking of what I’d like and quite often go some way to making things better but with John’s help he transforms my
                                     thoughts into reality with his experience of Quality Assurance, business processes and a wide variety of software solutions.  John’s ability to listen to what I am wanting to achieve and translate it into a live solution through his experience of database programming has made Complete Scanning more efficient than I could have
                                     ever hoped for.  Meeting John will literally transform your business.</div>
-                                <div class="source">Nicholas Hawkes - Managing Director Complete Scanning Ltd</div>
+                                <div class="source"><br>Nicholas Hawkes - Managing Director Complete Scanning Ltd</div>
                             </li>
                             <li class="carousel-item">
                                 <div class="quote">John Miller has created a relevant, specific database that suits our every need as a specialist company.  Providing ongoing support and training throughout the implementation process, John has been on-hand to answer our questions and to provide support when needed; either over the phone or by visiting our office.  The system created by John has improved our efficiency in multiple areas and is tailored to specifically benefit our company.  John’s professional yet friendly manner makes him a pleasure to work with, and I would highly recommend his services.</div>
-                                <div class="source">Nigel Owen - Managing Director N &amp; J Tree Services Ltd</small></div>
+                                <div class="source"><br>Nigel Owen - Managing Director N &amp; J Tree Services Ltd</small></div>
                             </li>
                         </ul>
-                    </div> <!-- End of Carousel-inner -->
-                </div> <!-- End of Carousel -->
-            </div> <!-- End of Carousel-container -->
+                    </div>
+                </div>
+            </div>
 
+            <!-- Spacer -->
             <div class="spacer"><br/></div>
 
+            <!-- Footer section -->
             <footer class="bg-dark text-white">
                 <div class="my-5">
                     <div class="d-flex justify-content-center">
@@ -319,9 +315,9 @@
                         </a>
                     </div>
                 </div>
-            </footer> <!-- End of Footer -->
+            </footer> 
 
-        </div> <!-- End of main-container -->
+        </div>
 
         <!-- Scripts used to control slide shows on the projects page -->
         <script>

@@ -11,45 +11,47 @@
     <link rel="shortcut icon" type="image/png" href="assets/images/background/favicon.png">
 </head>
     <body>
-        <container class="topmenu">
-            <nav class="navbar navbar-light navbar-expand-sm bg-white navbar-default">
-                <a class="navbar-brand" href="https://codeinstitute.net" target="_blank">
-                    <img src="assets/images/logo.png" width="60" height="33" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" id="active" href="index.html">Hello!<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="history.html">History</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="skills.html">Skills</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="projects.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Projects
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="projects.html#project1">WIP system</a>
-                                <a class="dropdown-item" href="projects.html#project2">Job tracking</a>
-                                <a class="dropdown-item" href="projects.html#project3">Document management</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#modalcontactme" data-toggle = "modal" data-target= "#modalcontactme" class="nav-link">
-                                Contact
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </container> <!-- End of Top Menu -->
 
+        <!-- Main Nav element used on all pages -->
+        <nav class="navbar navbar-light navbar-expand-sm bg-white navbar-default">
+            <a class="navbar-brand mt-2 ml-2" href="index.html">
+                <img src="assets/images/profile_round-blank.png" width="55" height="55" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" id="active" href="index.html">Hello!<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="history.html">History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="skills.html">Skills</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="projects.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Projects
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="projects.html#project1">WIP system</a>
+                            <a class="dropdown-item" href="projects.html#project2">Job tracking</a>
+                            <a class="dropdown-item" href="projects.html#project3">Document management</a>
+                            <a class="dropdown-item" href="projects.html#testimonials">Testimonials</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#modalcontactme" data-toggle = "modal" data-target= "#modalcontactme" class="nav-link">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Modal Contact me form used on all pages -->
         <div class="modal fade" id="modalcontactme" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -78,16 +80,18 @@
                                 <input type="file" class="custom-file-input" id="customFile">
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary button-modal-cancel" data-dismiss="modal">Close</button>
-                                <button type="submit" class="btn btn-primary button-modal-send">Submit</button>
+                                <button type="button" class="btn btn-secondary button-modal button-modal-cancel" data-dismiss="modal">Close</button>
+                                <button type="submit" class="btn ml-3 btn-primary button-modal button-modal-send">Submit</button>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
-        </div> <!-- End of Modal Contact me form -->
+        </div> 
 
+        <!-- Main Content -->
         <div class="main-container">
+            <!-- Row 1 with 2 cols which collapse at size sm, col order reversed at greater than sm -->
             <div class="row">
                 <div class="col-12 col-sm-6 order-sm-12 mt-5">
                     <img class="img-fluid img-locked m-0 " src="assets/images/profile_round.png" alt="profile picture">
@@ -96,10 +100,11 @@
                     <h2>John Miller</h2>
                     <button class="btn button-custom mt-5" href="#modalcontactme" data-toggle = "modal" data-target= "#modalcontactme">Contact me</button>
                         <p>
-                            Long ago I taught myself software development to remove the mundane routine tasks required in my job.<br>I've been refining and improving my programming skills from day 1 and continue to learn. As they say, everyday is a school day!
+                            Long ago I taught myself software development to remove the mundane routine tasks required in my job.<br>I've been refining and improving my programming skills ever since, <br>I continue to learn. As they say, everyday is a school day!
                         </p>
                 </div>
             </div>
+            <!-- Row 2 with 2 cols which hide col 1 at size md -->
             <div class="row p-4">
                 <div class="col p-5 m-4 d-none d-md-block">
                         <img src="assets/images/agreement-light.png" class="img-fluid image-radius" alt="agreement picture">
@@ -112,6 +117,7 @@
                 </div>
             </div>
 
+            <!-- Footer section -->
             <footer class="bg-dark text-white">
                 <div class="my-5">
                     <div class="d-flex justify-content-center">
@@ -141,9 +147,9 @@
                         </a>
                     </div>
                 </div>
-            </footer> <!-- End of Footer -->
+            </footer>
 
-        </div> <!-- End of Main Container -->
+        </div> 
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
