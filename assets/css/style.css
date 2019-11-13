@@ -60,12 +60,6 @@ p {
     /* padding-bottom: 100px; /* height of your footer */
 }
 
-.main-container  .img-locked {
-    display: block;
-    min-width: 175px;
-    max-height: 100%;
-}
-
 /* Default styling for buttons like contact me on index.html */
 .button-custom {
     color:#27509b;
@@ -192,6 +186,15 @@ footer {
         box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+/* Styling used in index.html */
+.main-container  .img-locked {
+    width: 80%;
+    min-width: 185px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Skills section progress bars in skills.html */
 .progress-title {
     margin-bottom: 2px;
@@ -292,7 +295,7 @@ footer {
 }
 
 .card-img {
-    margin-left: 0 auto;
+    margin-left: auto;
     width: 90%;
 }
 
