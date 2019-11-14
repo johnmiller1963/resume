@@ -1,6 +1,8 @@
 # resume
 Code Institute MS1
 
+Published at https://johnmiller1963.github.io/resume/
+
 Ref for transparent pngs used https://onlinepngtools.com/create-transparent-png
 Ref for text carousel used in projects https://codepen.io/cassidoo/pen/MyaWzp
 Auto-prefixer https://autoprefixer.github.io/ to ensure cross-browser compatability
