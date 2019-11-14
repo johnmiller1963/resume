@@ -1,8 +1,8 @@
 # John Miller - Resume site
 
 This site is a 4 page site with the purpose of show-casing myself to potential clients.  I should come across as prefessional, reliable and skilled at the services I can offer to local businesses.  There are pages covering my employment history and some sample images from completed projects. The site is published through Gitpages;
-https://johnmiller1963.github.io/resume/
-but could be deployed to my business domain www.ritmanager.co.uk
+[Hosted resume](https://johnmiller1963.github.io/resume/)
+but could be deployed to my business domain [Our IT Manager](http://www.ritmanager.co.uk)
 
 Using html5 and semantics it would be findable through natural searches but historically my clients come from word-of-mouth via existing customers.  The site contains a single method of contact, a modal contact form that (when connected) would email me details of the enquiry, together with enquiror name and email and optionally the abilty to upload a related data file.
  
@@ -23,14 +23,14 @@ The site is a personal resume for myself, but links in several sutble ways to 'O
 As the site should be more attractive than a simple black and white PDF resume, it should appeal to recruiters looking for contractors for specific roles.  I would like to take on flexible or fixed term contracts through recruitment agencies and similar to the story above these people want to know that I have enough experience to complete the task involved.
 
 Wireframes were created using Balsamiq desktop before any coding, these are available in the Github repository for the site;
-https://github.com/johnmiller1963/resume/blob/master/assets/wireframes/JM-MS1.bmpr
+[Wireframes on Github](https://github.com/johnmiller1963/resume/blob/master/assets/wireframes/JM-MS1.bmpr)
 
 ## Features
 
-The site is designed mobile first using Boostrap4.  It has a white background and a limited colour pallette.  The colours where checked to have an acceptable contrast ratio as recommended by W3C using the resources at;
-https://contrastchecker.com/
+The site is designed mobile first using Bootstrap 4.  It has a white background and a limited colour pallette.  The colours where checked to have an acceptable contrast ratio as recommended by W3C using the resources at;
+[Contract Checker](https://contrastchecker.com/)
 Fonts were selected by visual appeal from the Google site;
-https://fonts.googleapis.com/css?family=Niramit
+[Google fonts](https://fonts.googleapis.com/css?family=Niramit)
 with a fall-back of Roboto and sans-serif.
 
 The purpose of the site is to allow a user to get to know me, my profile picture appears on the landing page on all devices and is a NavBrand on other pages.  The contact me button is the only interaction on the landing page, in other pages the same functionality is available from the Navbar.  If a user decides they want to contact me then in one click directly on the landing page they can complete a simple form and submit this to my email.
@@ -69,49 +69,49 @@ History page, Orange Our IT Manager Ltd & Emma Bridgewater logos looks poor with
 
 ## Technologies Used
 
-- html5 <a href="http://www.w3.org/html/logo/">
+- [html5](<a href="http://www.w3.org/html/logo/">
 <img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="165" height="64" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics">
-</a>
+</a>)
 Building blocks of this site
 
-- CSS https://www.w3.org/Style/CSS/
+- [CSS3](https://www.w3.org/Style/CSS/)
 A simple mechanism for adding style (e.g., fonts, colors, spacing) to Web documents.
 
-- Javascript https://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript#JavaScript_.E2.80.94_adding_behaviour_to_web_pages
+- [Javascript](https://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript#JavaScript_.E2.80.94_adding_behaviour_to_web_pages)
 Adding behaviour to web pages (only required to make the project slideshows function as desired)
 
-- Bootstrap 4 https://getbootstrap.com/
+- [Bootstrap 4](https://getbootstrap.com/)
 Bootstrap is an open source, mobile first toolkit for developing with HTML, CSS, and JS.  A CDN link is included on each page
 
-- Font Awesome https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+- [Font Awesome](https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css)
 CDN used for download icon in the footer
 
-- Gitpod https://gitpod.io/
+- [Gitpod](https://gitpod.io/)
 Used as the primary IDE and to push committed changes back to Github
 
-- https://onlinepngtools.com/create-transparent-png
+- Adding transparency to PNGs](https://onlinepngtools.com/create-transparent-png)
 Ref for adding transparent background for pngs used
 
-- https://www.w3schools.com/bootstrap4/bootstrap_carousel.asp
-- https://codepen.io/cassidoo/pen/MyaWzp
+- [Carousels](https://www.w3schools.com/bootstrap4/bootstrap_carousel.asp)
+- [Carousels2](https://codepen.io/cassidoo/pen/MyaWzp)
 Both used for inspiration for slider control on projects page
 
-- https://autoprefixer.github.io/
+- [Auto prefixer](https://autoprefixer.github.io/)
 Auto-prefixer to ensure cross-browser compatability
 
-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_gallery
+- [Slideshow samples](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_gallery)
 Slideshow gallery in projects 
 
-- https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp
+- [Accordion](https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp)
 Accordion used in the history page
 
-- https://www.iconfinder.com/search/?q=social%20media&style=long-shadow
+- [Icons](https://www.iconfinder.com/search/?q=social%20media&style=long-shadow)
 Social icons used on the footer, open license
 
-- https://learn-the-web.algonquindesign.ca/topics/html-semantics-cheat-sheet/
+- [HTML5 Semantics](https://learn-the-web.algonquindesign.ca/topics/html-semantics-cheat-sheet/)
 Semantic tags for html5
 
-- https://www.google.com/chrome/
+- [Debugging](https://www.google.com/chrome/)
 Google Chrome developer tools used to itemise specific spacing issues and debug any problems
 
 ## Testing
@@ -126,7 +126,7 @@ The project was developed from start to end using Gitpod, using the inbuilt prev
 
 There are 9 hyperlinks in the Navbar menu, for each browser above these are all clicked to ensure correct operation and target.  The Navbrand (left edge of the menu) should always return the user to the home page.
 The footer is tested to confirm the mouse hover effect on the CV download link, the PDF should open in a new window.
-The footer also contains 6 icons, 5 of these link to the home directory of the organisation eg www.facebook.com as yet they do not link to my account on each.  The 6th icon is an email link that when tested should use the users default email client to generate a blank email with my email address included.
+The footer also contains 6 icons, 5 of these link to the home directory of the organisation eg [Facebook](http://www.facebook.com) as yet they do not link to my account on each.  The 6th icon is an email link that when tested should use the users default email client to generate a blank email with my email address included.
 The modal 'contact me' is tested from both the landing page (index.html) and the Navbar (contact) link. The form is tested to ensure those elements shown as 'required' must be entered before the 'submit' button can be clicked.  The email field should validate for email format (includes @ and a dot).
 The history page uses an accordion to reveal details on an item and simultaneously hide any other open items, functionality is tested.  Each item (where appropriate) contains a link to the employer in question.
 The projects page contains 3 javascript driven slideshows, these are controlled either by in-image arrows or by clicking the thumbnails below each main slide.  The thumbnails should be of a low alpha blend unless selected when they change to alpha=100%.
@@ -134,14 +134,14 @@ At the bottom of the projects page is a carousel of testimonials, this should be
 
 The site resonded well on all devices and the only issue found was on a massive 4k display where the profile image wasn't horizontally centered in it's container, all other resolution displays hide this issue as the image naver gets to 100% height.  This issue was resolved.
 
-I validated html at https://validator.w3.org
+I validated html at [W3 html validator](https://validator.w3.org)
 Results:
 index.html - Document checking completed. No errors or warnings to show.
 history.html - Document checking completed. No errors or warnings to show.
 skills.html - Document checking completed. No errors or warnings to show.
 projects.html - Document checking completed. No errors or warnings to show.
 
-CSS validated at https://jigsaw.w3.org/css-validator/
+CSS validated at [CCS validator](https://jigsaw.w3.org/css-validator/)
 Results:
 Congratulations! No Error Found.
 This document validates as CSS level 3 + SVG !
@@ -171,13 +171,13 @@ Valid CSS!
 ## Deployment
 
 The site resides in Github and the master repository is hosted on Gitpages.  I found multiple methods recommended to allow hosting on Gitpages but using the desktop version of Github didn't work as expected.  The solution was the procedure described here;
-https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+[Publishing pages](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 
 I chose to use the 'master' repository as the source for Gitpages, this means that each new push into the master repository will (within a few minutes) automatically update the published page.    
 
 ## Credits
 
-Credit to the Code Institute https://codeinstitute.net/ 
+Credit to the Code Institute [Code Institute](https://codeinstitute.net/)
 Prior to starting the Full Stack web development course I had never written a single line of html or css
 
 ### Content
