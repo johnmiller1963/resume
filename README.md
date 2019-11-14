@@ -125,11 +125,12 @@ The history page uses an accordion to reveal details on an item and simultaneous
 The projects page contains 3 javascript driven slideshows, these are controlled either by in-image arrows or by clicking the thumbnails below each main slide.  The thumbnails should be of a low alpha blend unless selected when they change to alpha=100%.
 At the bottom of the projects page is a carousel of testimonials, this should be fully visible above the footer and circulate every 6 seconds (enough time to read the content).  If a mouse hover is detected the circulation should stop allowing the user more time.
 
-The site responded well on all devices and only 2 issues found;
+The site responded well on all devices however some issues found;
 
 1) On a massive 4k display where the profile image wasn't horizontally centered in it's container, all other resolution displays hide this issue as the image naver gets to 100% height.  This issue was resolved.
 2) On Safari the profile image on index.html does not respect the column ordering rules in place, in effect it falls below the title and text column position 2, 
 but should move to column position 1, this issue exists today and will be resolved when I have direct access to a Safari environment.
+3) At very small screen widths, the projects page contains accordion buttons that cannot collapse so get pushed off to the right.
 
 I validated html at [W3 html validator](https://validator.w3.org)
 Results:
