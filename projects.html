@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Resume - John Miller</title>
+    <title>John Miller - Sample Projects</title>
     <link rel="shortcut icon" type="image/png" href="assets/images/background/favicon.png">
 </head>
     <body>
@@ -90,9 +90,12 @@
         </div> 
 
         <!-- Main Content -->
-        <div class="main-container">
-            <!-- Project 1 ERP & Work in progress system slider -->
-            <div id="project1" class="project1">
+        <main class="main-container">
+            <!-- Project 1 ERP & Work in progress system slider 
+            This 3 component skideshow gallery is based on the idea presented here
+            https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_gallery
+            -->
+            <section id="project1" class="project1">
                 <h2>ERP-WIP System</h2>
 
                 <!-- Container for the image gallery -->
@@ -154,10 +157,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
             <!-- Project 2 Job tracking slider -->
-            <div id="project2" class="project2 project-move-down">
+            <section id="project2" class="project2 project-move-down">
                 <h2>Detailed Job-Tracking</h2>
 
                 <!-- Container for the image gallery -->
@@ -204,10 +207,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
             <!-- Project 3 Document management slider -->
-            <div id="project3" class="project3-container project-move-down">
+            <section id="project3" class="project3-container project-move-down">
                 <h2>Document Management</h2>
 
                 <!-- Container for the image gallery -->
@@ -255,36 +258,37 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <!-- Testimonials presented as a carousel -->
-            <div id="testimonials" class="carousel-container p-5 project-move-down">
-                <h2>Quotes for existing projects</h2>
+            <!-- Testimonials presented as a carousel 
+            Heavily modified version as a combination of these two examples
+            https://www.w3schools.com/bootstrap4/bootstrap_carousel.asp
+            https://codepen.io/cassidoo/pen/MyaWzp -->
+            <article id="testimonials" class="carousel-container p-5 project-move-down">
+                <heading><h2>Quotes for existing projects</h2></heading>
                 <div class="carousel slide" data-ride="carousel" data-interval="6000">
                     <div class="carousel-inner mt-5 mb-5">
                         <ul>
                             <li class="carousel-item active">
-                                <div class="quote">I have known John for a number of years, he has looked after our PC hardware, backups, and has made 3 destinct bespoke software systems that have helped us to improve our business.  He has also helped us when we have had hardware issues and network problems and his swift response had us back up and running quickly.</div>
+                                <blockquote class="quote">I have known John for a number of years, he has looked after our PC hardware, backups, and has made 3 destinct bespoke software systems that have helped us to improve our business.  He has also helped us when we have had hardware issues and network problems and his swift response had us back up and running quickly.</blockquote>
                                 <div class="source"><br>Carl Ford - Managing Director UKUSP</div>
                             </li>
                             <li class="carousel-item">
-                                <div class="quote">As a business owner I am constantly looking at ways to improve the running of my business with a view to streamlining existing processes and delivering better results for my customers.  I am always thinking of what I’d like and quite often go some way to making things better but with John’s help he transforms my
+                                <blockquote class="quote">As a business owner I am constantly looking at ways to improve the running of my business with a view to streamlining existing processes and delivering better results for my customers.  I am always thinking of what I’d like and quite often go some way to making things better but with John’s help he transforms my
                                     thoughts into reality with his experience of Quality Assurance, business processes and a wide variety of software solutions.  John’s ability to listen to what I am wanting to achieve and translate it into a live solution through his experience of database programming has made Complete Scanning more efficient than I could have
-                                    ever hoped for.  Meeting John will literally transform your business.</div>
+                                    ever hoped for.  Meeting John will literally transform your business.</blockquote>
                                 <div class="source"><br>Nicholas Hawkes - Managing Director Complete Scanning Ltd</div>
                             </li>
                             <li class="carousel-item">
-                                <div class="quote">John Miller has created a relevant, specific database that suits our every need as a specialist company.  Providing ongoing support and training throughout the implementation process, John has been on-hand to answer our questions and to provide support when needed; either over the phone or by visiting our office.  The system created by John has improved our efficiency in multiple areas and is tailored to specifically benefit our company.  John’s professional yet friendly manner makes him a pleasure to work with, and I would highly recommend his services.</div>
+                                <blockquote class="quote">John Miller has created a relevant, specific database that suits our every need as a specialist company.  Providing ongoing support and training throughout the implementation process, John has been on-hand to answer our questions and to provide support when needed; either over the phone or by visiting our office.  The system created by John has improved our efficiency in multiple areas and is tailored to specifically benefit our company.  John’s professional yet friendly manner makes him a pleasure to work with, and I would highly recommend his services.</blockquote>
                                 <div class="source"><br>Nigel Owen - Managing Director N &amp; J Tree Services Ltd</div>
                             </li>
                         </ul>
                     </div>
                 </div>
-            </div>
+            </article>
 
-            <!-- Spacer -->
-            <div class="spacer"><br/></div>
-        </div>
+        </main>
 
         <!-- Footer section -->
         <footer class="bg-dark text-white">

@@ -193,6 +193,11 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    vertical-align: middle;
+}
+
+.vertical-center {
+    vertical-align: middle;
 }
 
 /* Skills section progress bars in skills.html */

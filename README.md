@@ -3,11 +3,14 @@ Code Institute MS1
 
 Ref for transparent pngs used https://onlinepngtools.com/create-transparent-png
 Ref for text carousel used in projects https://codepen.io/cassidoo/pen/MyaWzp
-Auto-prefixer https://autoprefixer.github.io/
+Auto-prefixer https://autoprefixer.github.io/ to ensure cross-browser compatability
 Carosel https://www.w3schools.com/bootstrap4/bootstrap_carousel.asp
+Slideshow gallery in projects https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_gallery
 Accordian https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp
 Social icons https://www.iconfinder.com/search/?q=social%20media&style=long-shadow
+Semantic tags as suggested by https://learn-the-web.algonquindesign.ca/topics/html-semantics-cheat-sheet/
 
+Have a reason behind the fonts, colours, design choices you make. Note them down in your readme.
 
 Things that don't work, but need to move on for now ;-)
 
@@ -26,6 +29,8 @@ Things that don't work, but need to move on for now ;-)
 13) #Done - footer 3 blocks of 3 (icons split into 2 blocks of 3) break on small device
 
 readme https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+Tested in all browsers inc beta Edge
 
 Valiadate html at https://validator.w3.org
 Results:
