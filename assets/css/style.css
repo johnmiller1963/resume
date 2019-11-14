@@ -310,10 +310,8 @@ footer {
 }
 
 .carousel-container {
-    margin:0%;
     padding-right: 20px;
-    margin: 0 auto;
-    width: 100%;
+    margin: 0 auto;  
 }
 
 .carousel-inner .source {
@@ -372,8 +370,8 @@ footer {
 }
 
 /* Next & previous buttons */
-.prevp1,
-.nextp1 {
+.prev-button,
+.next-button {
     cursor: pointer;
     position: absolute;
     top: 40%;
@@ -391,7 +389,7 @@ footer {
 }
 
 /* Position the P1 next button to the right */
-.nextp1 {
+.next-button {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
@@ -401,57 +399,9 @@ footer {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-.prevp2,
-.nextp2 {
-    cursor: pointer;
-    position: absolute;
-    top: 40%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: black;
-    font-weight: bold;
-    font-size: 22px;
-    border-radius: 0 3px 3px 0;
-    -moz-user-select: none;
-     -ms-user-select: none;
-         user-select: none;
-    -webkit-user-select: none;
-}
-
-/* Position the P2 next button to the right */
-.nextp2 {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
 .prevp2:hover,
 .nextp2:hover {
     background-color: rgba(0, 0, 0, 0.2);
-}
-
-.prevp3,
-.nextp3 {
-    cursor: pointer;
-    position: absolute;
-    top: 40%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: black;
-    font-weight: bold;
-    font-size: 22px;
-    border-radius: 0 3px 3px 0;
-    -moz-user-select: none;
-     -ms-user-select: none;
-         user-select: none;
-    -webkit-user-select: none;
-}
-
-/* Position the P3 next button to the right */
-.nextp3 {
-    right: 0;
-    border-radius: 3px 0 0 3px;
 }
 
 .prevp3:hover,

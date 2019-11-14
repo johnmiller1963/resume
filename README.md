@@ -1,6 +1,6 @@
 # John Miller - Resume site
 
-This site is a 4 page site with the purpose of show-casing myself to potential clients.  I should come across as prefessional, reliable and skilled at the services I can offer to local businesses.  There are pages covering my employment history and some sample images from completed projects. The site is published through Gitpages;
+This site is a 4 page site with the purpose of show-casing myself to potential clients.  I should come across as professional, reliable and skilled at the services I can offer to local businesses.  There are pages covering my employment history and some sample images from completed projects. The site is published through Gitpages;
 [Hosted resume](https://johnmiller1963.github.io/resume/)
 but could be deployed to my business domain [Our IT Manager](http://www.ritmanager.co.uk)
 
@@ -92,15 +92,8 @@ Used as the primary IDE and to push committed changes back to Github
 - Adding transparency to PNGs](https://onlinepngtools.com/create-transparent-png)
 Ref for adding transparent background for pngs used
 
-- [Carousels](https://www.w3schools.com/bootstrap4/bootstrap_carousel.asp)
-- [Carousels2](https://codepen.io/cassidoo/pen/MyaWzp)
-Both used for inspiration for slider control on projects page
-
 - [Auto prefixer](https://autoprefixer.github.io/)
 Auto-prefixer to ensure cross-browser compatability
-
-- [Slideshow samples](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_gallery)
-Slideshow gallery in projects 
 
 - [Accordion](https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp)
 Accordion used in the history page
@@ -132,7 +125,11 @@ The history page uses an accordion to reveal details on an item and simultaneous
 The projects page contains 3 javascript driven slideshows, these are controlled either by in-image arrows or by clicking the thumbnails below each main slide.  The thumbnails should be of a low alpha blend unless selected when they change to alpha=100%.
 At the bottom of the projects page is a carousel of testimonials, this should be fully visible above the footer and circulate every 6 seconds (enough time to read the content).  If a mouse hover is detected the circulation should stop allowing the user more time.
 
-The site resonded well on all devices and the only issue found was on a massive 4k display where the profile image wasn't horizontally centered in it's container, all other resolution displays hide this issue as the image naver gets to 100% height.  This issue was resolved.
+The site responded well on all devices and only 2 issues found;
+
+1) On a massive 4k display where the profile image wasn't horizontally centered in it's container, all other resolution displays hide this issue as the image naver gets to 100% height.  This issue was resolved.
+2) On Safari the profile image on index.html does not respect the column ordering rules in place, in effect it falls below the title and text column position 2, 
+but should move to column position 1, this issue exists today and will be resolved when I have direct access to a Safari environment.
 
 I validated html at [W3 html validator](https://validator.w3.org)
 Results:
@@ -166,8 +163,6 @@ Valid CSS!
     </a>
 </p>
         
-
-
 ## Deployment
 
 The site resides in Github and the master repository is hosted on Gitpages.  I found multiple methods recommended to allow hosting on Gitpages but using the desktop version of Github didn't work as expected.  The solution was the procedure described here;
@@ -180,13 +175,20 @@ I chose to use the 'master' repository as the source for Gitpages, this means th
 Credit to the Code Institute [Code Institute](https://codeinstitute.net/)
 Prior to starting the Full Stack web development course I had never written a single line of html or css
 
+- [Carousels](https://www.w3schools.com/bootstrap4/bootstrap_carousel.asp)
+- [Carousels2](https://codepen.io/cassidoo/pen/MyaWzp)
+Both used for inspiration for slider control on projects page
+
+- [Slideshow samples](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_gallery)
+Slideshow gallery used in projects
+
 ### Content
 
 As the site is my resume, all content is my own.  Some links and icons\logos exist to past employers, these images are owned by the companies in question.
 
 An image (called agreement) on the index.html (visible on mid to large devices) is an image purchased for use on another project, the usage agreement specifies unlimited use on web projects.  All other images are owned by myself. 
 
-The projects page contains live data from current software projects, all visible metadata remains the property of the client who commissioned the project.  The layout and design of the screens displayed are the property of myself.
+The projects page contains live data from git checkoutcurrent software projects, all visible metadata remains the property of the client who commissioned the project.  The layout and design of the screens displayed are the property of myself.
 
 As detailed earlier in this file, fonts are used from Google fonts, icons from Font Awesome and icons from iconfinder.com, in all cases the only resouces utilised are free and the license wording on the respective owner sites confirms this.
 
