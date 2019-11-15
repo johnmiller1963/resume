@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>John Miller - Employment History</title>
     <link rel="shortcut icon" type="image/png" href="assets/images/background/favicon.png">
@@ -90,17 +90,17 @@
         </div> 
 
         <!-- Main container -->
-        <main class="container main-container">
+        <main class="container-fluid main-container">
             <header><h2>Employment history</h2></header>
             <!-- Wrapper for accordian -->
-            <div class="container-history mb-5">
+            <div class="row container-history mb-5">
                 <!-- Accordian -->
                 <div class="accordion" id="accordionExample">
-                    <section class="card text-centre">
+                    <section class="col card text-centre">
                         <div class="card-header" id="headingOne">
                         <h2 class="mb-4">
                             <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            <img src="assets/images/logooi.png" height="40" alt=""><br>  Our IT Manager Ltd (2009 - Present)
+                            <img src="assets/images/logooi.png" height="35px" alt="Logo Our IT Manager" onmouseover="hover(this);" onmouseout="unhover(this);"><br>  Our IT Manager Ltd<br>(2009 - Present)
                             </button>
                         </h2>
                         </div>
@@ -124,11 +124,11 @@
                         </div>
                     </section>
 
-                    <section class="card text-center">
+                    <section class="col card text-center">
                         <div class="card-header" id="headingTwo">
                         <h2 class="mb-4">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <img src="assets/images/logocs.png" height="40" alt=""><br> Complete Scanning Ltd (2013 - 2018)
+                            <img src="assets/images/logocs.png" height="35px" alt="Logo Complete Scanning"><br> Complete Scanning Ltd<br>(2013 - 2018)
                             </button>
                         </h2>
                         </div>
@@ -158,11 +158,11 @@
                         </div>
                     </section>
 
-                    <section class="card text-center">
+                    <section class="col card text-center">
                         <div class="card-header" id="headingThree">
                             <h2 class="mb-4">
                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                <img src="assets/images/logoai.png" height="40" alt=""><br> Arrow Imaging Ltd (2007 - 2012)
+                                <img src="assets/images/logoai.png" height="35px" alt="Logo Arrow Imaging"><br> Arrow Imaging Ltd<br>(2007 - 2012)
                                 </button>
                             </h2>
                         </div>
@@ -194,11 +194,11 @@
                         </div>
                     </section>
 
-                    <section class="card card-center">
+                    <section class="col card card-center">
                         <div class="card-header" id="headingFour">
                             <h2 class="mb-4">
                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-                                <img src="assets/images/logoeb.png" height="40" alt=""><br> Bridgewater Potteries Ltd (2002 - 2007)
+                                <img src="assets/images/logoeb.png" height="35px" alt="Logo Emma Bridgewater"><br> Bridgewater Potteries Ltd<br>(2002 - 2007)
                                 </button>
                             </h2>
                         </div>
@@ -228,11 +228,11 @@
                         </div>
                     </section>
 
-                    <section class="card card-center">
+                    <section class="col card card-center">
                         <div class="card-header" id="headingFive">
                             <h2 class="mb-4">
                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
-                                <img src="assets/images/logomt.png" height="40" alt=""><br> Michelin Tyres PLC (1984 - 2002)
+                                <img src="assets/images/logomt.png" height="35px" alt="Logo Michelin Tyres"><br> Michelin Tyres PLC<br>(1984 - 2002)
                                 </button>
                             </h2>
                         </div>
@@ -306,8 +306,17 @@
         </footer>
 
         <!-- Scripts common to all pages -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script>
+        function hover(element) {
+        element.setAttribute('src', "assets/images/logooiwhite.png");
+        }
+
+        function unhover(element) {
+        element.setAttribute('src', "assets/images/logooi.png");
+        }
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper-utils.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>

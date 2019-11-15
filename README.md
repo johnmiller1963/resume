@@ -109,6 +109,12 @@ Google Chrome developer tools used to itemise specific spacing issues and debug 
 
 ## Testing
 
+CDN mechanisms were updated to the latest version as recomended by their authors
+Bootstrap stylesheet and Javascript at 4.3.1 from [Stackpath](https://www.stackpath.com/)
+jquery to 3.4.1 from [cdnjs](https://cdnjs.com/)
+popperjs to 1.15.0 from [cdnjs](https://cdnjs.com/)
+font-awesome to 5.11.2 from [cdnjs](https://cdnjs.com/)
+
 The project was developed from start to end using Gitpod, using the inbuilt preview window to observe immediate effects.  Prior to important commit operations the terminal command python3 -m http.server and a port opened on my development laptop.  This allowed me to paste the exposed url into locally installed browsers
 1) Google Chrome - Version 78.0.3904.97 (Official Build) (64-bit)
 2) Mozilla Firefox - 70.0.1 (64-bit)

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Niramit:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Niramit:100,200,300,400,500,600,700');
 
 /* General (over-all-site) styles */
 * {
@@ -47,7 +47,7 @@ p {
 }
 
 .image-radius {
-    border:white;
+    border: #ffffff;
     border-radius: 10px;
 }
 
@@ -64,7 +64,7 @@ p {
 .button-custom {
     color:#27509b;
     font-size: 1.3rem;
-    background-color: white;
+    background-color: #ffffff;
     -webkit-box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
             box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
     width: 165px;
@@ -78,7 +78,7 @@ p {
 
 .button-custom:hover {
     background-color: #fc9700;
-    color: white;
+    color: #ffffff;
     -webkit-box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
             box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -137,7 +137,7 @@ footer {
     padding-top: 35px;
     font-size: 16px;
     font-family: niramit, sans-serif;
-    color: white;
+    color: #ffffff;
     text-align: center;
     padding-bottom: 5px;
     transition: all 0.35s ease-in-out;
@@ -167,7 +167,7 @@ footer {
 .button-modal {
     color:#27509b;
     font-size: 1.1rem;
-    background-color: white;
+    background-color: #ffffff;
     width: 125px;
     border-radius: 5px 20px 5px 5px;
     -webkit-box-shadow: 11px 15px 26px -7px rgba(0,0,0,0.66);
@@ -181,7 +181,7 @@ footer {
 
 .button-modal:hover {
     background-color: #fc9700;
-    color: white;
+    color: #ffffff;
     -webkit-box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
         box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -229,8 +229,7 @@ footer {
 
 /* Accordion panel in history.html */
 .accordion {
-    background-color: white;
-    color: #444;
+    background-color: #ffffff;
     width: 100%;
     text-align: center;
     outline: none;
@@ -241,17 +240,17 @@ footer {
 }
 
 .card {
-    border-color: white;
+    border-color: #ffffff;
     margin: 0 auto;
 }
 
 .card-body {
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
 }
 
 .card-header {
-    background-color: white;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
     border: none;
@@ -289,18 +288,18 @@ footer {
         -webkit-transition: all 0.35s ease-in-out;
         -o-transition: all 0.35s ease-in-out;
     margin: 0 auto;
-    width:325px;
+    width:250px;
 }
 
 .btn-link:hover {
     background-color: #fc9700;
-    color: white;
+    color: #ffffff;
     -webkit-box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
             box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .panel {
-    background-color: white;
+    background-color: #ffffff;
     display: none;
     overflow: hidden;
 }
@@ -345,7 +344,7 @@ footer {
     min-height: 66px;
     text-align: center;
     background-color: #333;
-    color: white;
+    color: #ffffff;
     width:100%;
 }
 
@@ -384,7 +383,7 @@ footer {
     width: auto;
     padding: 16px;
     margin-top: -50px;
-    color: black;
+    color: #000000;
     font-weight: bold;
     font-size: 22px;
     border-radius: 0 3px 3px 0;
