@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Niramit:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Niramit&display=swap');
 
 /* General (over-all-site) styles */
 * {
@@ -17,22 +17,21 @@ html, body {
     position: relative;
 }
 
-h2{
+.heading2 {
+    font-family: 'Niramit', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
     margin: 25px;
     text-align: center;
     color: #27509b;
     text-shadow: 4px 7px 10px rgba(51,51,51,0.66);
 }
 
-h3{
+.heading3 {
+    font-family: 'Niramit', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
     margin: 22px;
-    text-align: center;
-    color: #27509b;
-    text-shadow: 4px 7px 10px rgba(51,51,51,0.66);
-}
-
-h5{
-    margin: 20px;
     text-align: center;
     color: #27509b;
     text-shadow: 4px 7px 10px rgba(51,51,51,0.66);
@@ -86,7 +85,7 @@ p {
 /* Styling of the nav system used on all html pages */
 .navbar-nav {
     padding: 5px;
-    font-family: Niramit, sans-serif;
+    font-family: 'Niramit', sans-serif;
     font-size: 18px;
 }
 
@@ -100,7 +99,7 @@ p {
 
 .dropdown-item {
     padding-left: 8px;
-    font-family: Niramit, sans-serif;
+    font-family: 'Niramit', sans-serif;
     font-size: 16px;
     color:#020247;
     transition: all 0.35s ease-in-out;
@@ -118,6 +117,7 @@ p {
 }
 
 .nav-link:hover {
+    cursor: pointer;
     color:#fc9700!important;
 }
 
@@ -136,7 +136,7 @@ footer {
 .cv-pdf {
     padding-top: 35px;
     font-size: 16px;
-    font-family: niramit, sans-serif;
+    font-family: 'Niramit', sans-serif;
     color: #ffffff;
     text-align: center;
     padding-bottom: 5px;
@@ -310,24 +310,19 @@ footer {
 }
 
 /* Carousel slider styling in Projects.html */
-.project-move-down{
-    margin-top: 95px;
-}
-
-.carousel-container {
-    padding-right: 20px;
-    margin: 0 auto;  
+.project-move-down {
+    margin-top: 120px;
 }
 
 .carousel-inner .source {
-    font-family: niramit, sans-serif;
+    font-family: 'Niramit', sans-serif;
     color:#fc9700;
     text-align: right;
     font-weight: bold;
 }
 
 .carousel-inner .quote {
-    font-family: niramit, sans-serif;
+    font-family: 'Niramit', sans-serif;
     color: #333;
     font-size: 1rem;
     font-style: italic;

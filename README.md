@@ -29,9 +29,10 @@ Wireframes were created using Balsamiq desktop before any coding, these are avai
 
 The site is designed mobile first using Bootstrap 4.  It has a white background and a limited colour pallette.  The colours where checked to have an acceptable contrast ratio as recommended by W3C using the resources at;
 [Contract Checker](https://contrastchecker.com/)
+
 Fonts were selected by visual appeal from the Google site;
 [Google fonts](https://fonts.googleapis.com/css?family=Niramit)
-with a fall-back of Roboto and sans-serif.
+with a fall-back of sans-serif.
 
 The purpose of the site is to allow a user to get to know me, my profile picture appears on the landing page on all devices and is a NavBrand on other pages.  The contact me button is the only interaction on the landing page, in other pages the same functionality is available from the Navbar.  If a user decides they want to contact me then in one click directly on the landing page they can complete a simple form and submit this to my email.
 
@@ -61,9 +62,10 @@ All html pages incorporate html5 semantic headings where appropriate
 
 Optional videos for projects might be quite nice, but many users won't have the patience to sit through a 1-2 minute video?  At this stage static screenshots will suffice.
 
-The tumbnails under each of the 3 project slides would look nicer if they had a fixed height container rather than being fully responsive as thye are now.  They look good on smaller devices but on larger screens they take up too much screen space.
+The tumbnails under each of the 3 project slides would look nicer if they had a fixed height container rather than being fully responsive as thye are now.  
+They look good on smaller devices but on larger screens they take up too much screen space.
 
-I have experimented with background images and colours but at time of writing a white background suits the profession approach that I am striving for.
+I have experimented with background images and colours but at time of writing a white background suits the professional approach that I am striving for.
 
 History page, Orange Our IT Manager Ltd & Emma Bridgewater logos looks poor with the orange background on hover effect, this could perhaps be resolved by removing the png transparency?
 
@@ -83,29 +85,20 @@ Adding behaviour to web pages (only required to make the project slideshows func
 - [Bootstrap 4](https://getbootstrap.com/)
 Bootstrap is an open source, mobile first toolkit for developing with HTML, CSS, and JS.  A CDN link is included on each page
 
-- [Font Awesome](https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css)
+- [Font Awesome](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css)
 CDN used for download icon in the footer
+
+- [Google fonts](https://fonts.google.com/)
+Google font Niramet is the primary type-face used
 
 - [Gitpod](https://gitpod.io/)
 Used as the primary IDE and to push committed changes back to Github
 
-- Adding transparency to PNGs](https://onlinepngtools.com/create-transparent-png)
-Ref for adding transparent background for pngs used
+- [Github](https://github.com/)
+On-line repository for all resources related to the finished site
 
-- [Auto prefixer](https://autoprefixer.github.io/)
-Auto-prefixer to ensure cross-browser compatability
-
-- [Accordion](https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp)
-Accordion used in the history page
-
-- [Icons](https://www.iconfinder.com/search/?q=social%20media&style=long-shadow)
-Social icons used on the footer, open license
-
-- [HTML5 Semantics](https://learn-the-web.algonquindesign.ca/topics/html-semantics-cheat-sheet/)
-Semantic tags for html5
-
-- [Debugging](https://www.google.com/chrome/)
-Google Chrome developer tools used to itemise specific spacing issues and debug any problems
+- [Gitpages](https://pages.github.com/)
+Used to host the finished site
 
 ## Testing
 
@@ -115,7 +108,7 @@ jquery to 3.4.1 from [cdnjs](https://cdnjs.com/)
 popperjs to 1.15.0 from [cdnjs](https://cdnjs.com/)
 font-awesome to 5.11.2 from [cdnjs](https://cdnjs.com/)
 
-The project was developed from start to end using Gitpod, using the inbuilt preview window to observe immediate effects.  Prior to important commit operations the terminal command python3 -m http.server and a port opened on my development laptop.  This allowed me to paste the exposed url into locally installed browsers
+The project was developed from start to end using Gitpod, using the in-built preview window to observe immediate effects.  Prior to important commit operations the terminal command python3 -m http.server and a port opened on my development laptop.  This allowed me to paste the exposed url into locally installed browsers
 1) Google Chrome - Version 78.0.3904.97 (Official Build) (64-bit)
 2) Mozilla Firefox - 70.0.1 (64-bit)
 3) Internet Explorer - Version 11.476.18362.0
@@ -133,10 +126,10 @@ At the bottom of the projects page is a carousel of testimonials, this should be
 
 The site responded well on all devices however some issues found;
 
-1) On a massive 4k display where the profile image wasn't horizontally centered in it's container, all other resolution displays hide this issue as the image naver gets to 100% height.  This issue was resolved.
+1) On a massive 4k display where the profile image wasn't horizontally centered in it's container, all other resolution displays hide this issue as the image never gets to 100% height.  This issue was resolved.
 2) On Safari the profile image on index.html does not respect the column ordering rules in place, in effect it falls below the title and text column position 2, 
 but should move to column position 1, this issue exists today and will be resolved when I have direct access to a Safari environment.
-3) At very small screen widths, the projects page contains accordion buttons that cannot collapse so get pushed off to the right.
+3) At very small screen widths, the history page contains accordion buttons that would not collapse (have a fixed width to preserve the logo sizes) so get pushed off to the right. Thanks to help from peer-review I was able to container-row-col around the accordian and cards already in use, this resolved the problem.
 
 I validated html at [W3 html validator](https://validator.w3.org)
 Results:
@@ -169,13 +162,60 @@ Valid CSS!
         alt="Valid CSS!" />
     </a>
 </p>
-        
+
+The site was submitted to peer-review and a considerable number of issues were reported by helpful colleagues;
+
+Initially the CDN sources for Bootstrap js and Bootstrap sytle were of different version numbers
+- Corrected and documented above
+Popperjs and Font-awesome were not at the latest version available and came from different sources
+- Corrected and documented above
+The on small screens, history.html page had content overflowing to the right
+- Corrected by implementing a proper container-row-col structure
+30-40 images has a missing or not completed 'alt' tags
+- Corrected
+On the history page the Emma Bridgewater logo is orange and does not look good with the :hover effect which styles the button background orange
+- I have created a new white replacement logo, but javascript is the only way to chnage the image on hover and is beyond my capabilities at this point. This is an outstanding issue that will be resolved in a later release.
+h2 h3 and h5 elements were directly styled, it was recommended to create classes to style these
+- Corrected (h5 wasn't used at all anyway)
+Navbar brand uses two different images dependant on page displayed, these were at slightly different resolutions 55x55 and 50x50, causing the Navbar to move slightly
+- Corrected
+Concerns were raised about personal data leakage in some sample screen screenshots
+- Corrected
+In the WIP system project, thumbnail #5 didn't appear to relate to the linked main image
+- The text in the header explains that this screen demonstrates use of a password control, the thumbnail shows the password box and the main image shows the resulatant works screen
+Some images used were un-necessarily large and therefore could impact performance
+- Corrected
+Importing a font (Roboto) that wasn't used, generating additional over-head
+- Corrected
+Using imported font Niramit uncorrectly, errors in capitalisation and use of quotes
+- Corrected
+When I wanted to use the colour 'white' I was writting white eg color: white;
+- Corrected to #ffffff
+Deployment section in this README was wrong, not explaining how the pages were deployed
+- Corrected (re-written to explain the deplyment)
+
 ## Deployment
 
-The site resides in Github and the master repository is hosted on Gitpages.  I found multiple methods recommended to allow hosting on Gitpages but using the desktop version of Github didn't work as expected.  The solution was the procedure described here;
+The site resides in Github and the master repository is hosted on Gitpages.  
 [Publishing pages](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 
 I chose to use the 'master' repository as the source for Gitpages, this means that each new push into the master repository will (within a few minutes) automatically update the published page.    
+
+The current deployment of this project was done using gitpod.
+
+I used the gitpod interface to write the code and as it is linked with github as it was easy to use the terminal to commit my files and push to my repository.
+
+The deployed website is hosted on github pages for easy viewing without having to clone or fork the repository to view the running website. 
+
+Deployment was done by clicking on the settings tab on my repository then scroll down to 'Github pages' Changing the source from none to master, 
+this then deployed a link that can be found here [Published pages](https://johnmiller1963.github.io/resume/)
+
+If you wish to run this project locally.
+
+Click clone / download
+Choose your preffered method (Zip or github desktop)
+Open in your preffered IDE
+Run on local server
 
 ## Credits
 
@@ -188,6 +228,24 @@ Both used for inspiration for slider control on projects page
 
 - [Slideshow samples](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_gallery)
 Slideshow gallery used in projects
+
+- Adding transparency to PNGs](https://onlinepngtools.com/create-transparent-png)
+Ref for adding transparent background for pngs used
+
+- [Auto prefixer](https://autoprefixer.github.io/)
+Auto-prefixer to ensure cross-browser compatability
+
+- [Accordion](https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp)
+Accordion used in the history page
+
+- [Icons](https://www.iconfinder.com/search/?q=social%20media&style=long-shadow)
+Social icons used on the footer, open license
+
+- [HTML5 Semantics](https://learn-the-web.algonquindesign.ca/topics/html-semantics-cheat-sheet/)
+Semantic tags for html5
+
+- [Debugging](https://www.google.com/chrome/)
+Google Chrome developer tools used to itemise specific spacing issues and debug any problems
 
 ### Content
 
