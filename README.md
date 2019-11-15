@@ -28,7 +28,7 @@ Wireframes were created using Balsamiq desktop before any coding, these are avai
 ## Features
 
 The site is designed mobile first using Bootstrap 4.  It has a white background and a limited colour pallette.  The colours where checked to have an acceptable contrast ratio as recommended by W3C using the resources at;
-[Contract Checker](https://contrastchecker.com/)
+[Contrast Checker](https://contrastchecker.com/)
 
 Fonts were selected by visual appeal from the Google site;
 [Google fonts](https://fonts.googleapis.com/css?family=Niramit)
@@ -167,11 +167,11 @@ The site was submitted to peer-review and a considerable number of issues were r
 
 Initially the CDN sources for Bootstrap js and Bootstrap sytle were of different version numbers
 - Corrected and documented above
-Popperjs and Font-awesome were not at the latest version available and came from different sources
+Popper.js and Font-awesome were not at the latest version available and came from different sources
 - Corrected and documented above
 The on small screens, history.html page had content overflowing to the right
 - Corrected by implementing a proper container-row-col structure
-30-40 images has a missing or not completed 'alt' tags
+30-40 images had missing or not completed 'alt' tags
 - Corrected
 On the history page the Emma Bridgewater logo is orange and does not look good with the :hover effect which styles the button background orange
 - I have created a new white replacement logo, but javascript is the only way to chnage the image on hover and is beyond my capabilities at this point. This is an outstanding issue that will be resolved in a later release.
@@ -180,7 +180,7 @@ h2 h3 and h5 elements were directly styled, it was recommended to create classes
 Navbar brand uses two different images dependant on page displayed, these were at slightly different resolutions 55x55 and 50x50, causing the Navbar to move slightly
 - Corrected
 Concerns were raised about personal data leakage in some sample screen screenshots
-- Corrected
+- Corrected, all personally identifiable data has been obfuscated
 In the WIP system project, thumbnail #5 didn't appear to relate to the linked main image
 - The text in the header explains that this screen demonstrates use of a password control, the thumbnail shows the password box and the main image shows the resulatant works screen
 Some images used were un-necessarily large and therefore could impact performance
@@ -192,30 +192,30 @@ Using imported font Niramit uncorrectly, errors in capitalisation and use of quo
 When I wanted to use the colour 'white' I was writting white eg color: white;
 - Corrected to #ffffff
 Deployment section in this README was wrong, not explaining how the pages were deployed
-- Corrected (re-written to explain the deplyment)
+- Corrected (re-written to explain the deployment)
+
+Stylesheet and each html page were re-validated as per previous w3c links after the above corrections.
 
 ## Deployment
 
-The site resides in Github and the master repository is hosted on Gitpages.  
-[Publishing pages](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+The site resides in [Github](https://github.com/johnmiller1963/resume) and the master repository is hosted on Gitpages.  
+
+Instructions are shown here [Publishing pages](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 
 I chose to use the 'master' repository as the source for Gitpages, this means that each new push into the master repository will (within a few minutes) automatically update the published page.    
 
-The current deployment of this project was done using gitpod.
+I used the gitpod interface to write the code and as it is linked with github it was easy to use the terminal to commit my files and push to my repository.
 
-I used the gitpod interface to write the code and as it is linked with github as it was easy to use the terminal to commit my files and push to my repository.
-
-The deployed website is hosted on github pages for easy viewing without having to clone or fork the repository to view the running website. 
-
-Deployment was done by clicking on the settings tab on my repository then scroll down to 'Github pages' Changing the source from none to master, 
+Deployment was completed by clicking on the settings tab on my repository then scroll down to 'Github pages' Changing the source from none to master, 
 this then deployed a link that can be found here [Published pages](https://johnmiller1963.github.io/resume/)
 
 If you wish to run this project locally.
 
-Click clone / download
+Within the github repository, Click 'Clone or Download'
 Choose your preffered method (Zip or github desktop)
-Open in your preffered IDE
-Run on local server
+If zipped, then unzip the downloaded file to a convenient location, tested on a Windows desktop
+Inside the root of the 'resume-master' folder, double-click index.html
+You may be prompted to select your preferred browser
 
 ## Credits
 
@@ -259,4 +259,4 @@ As detailed earlier in this file, fonts are used from Google fonts, icons from F
 
 ### Acknowledgements
 
-I would like to thank my wife Debbie for never ending patience while completing this project!
+I would like to thank my wife Debbie for never ending patience while I was completing this project!

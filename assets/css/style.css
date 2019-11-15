@@ -15,6 +15,7 @@
 html, body {
     height: 100%;
     position: relative;
+    font-family: 'Niramit', sans-serif;
 }
 
 .heading2 {
@@ -416,20 +417,14 @@ footer {
 }
 
 /* Six columns side by side for Project 1 (full width) */
-.projectp1 {
+.projectl1 {
     padding-top:2px;
     float: left;
     width: 16.66%;
 }
 
-/* Four columns side by side, secondary projects, in med view will be full width*/
-.projectp2 {
-    padding-top:2px;
-    float: left;
-    width: 25%;
-}
-
-.projectp3 {
+/* Four columns side by side, secondary projects, */
+.projectl2 {
     padding-top:2px;
     float: left;
     width: 25%;
